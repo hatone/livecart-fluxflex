@@ -1,0 +1,56 @@
+.productFile_add
+{
+    background-image: url(../../image/silk/add.png);
+}
+
+.productFileGroup_add
+{
+    background-image: url(../../image/silk/folder_add.png);
+}
+
+.productFile_main
+{
+    border: 0;
+}
+
+.productFileGroup_title {
+    color: grey;
+    font-size:300%;
+    font-weight:bold;
+}
+
+li.productFileGroup_item {
+    border: 2px solid grey;
+    margin-bottom: 1em;   
+}
+
+li.productFileGroup_item legend
+{
+    display: none;
+}
+
+li.productFileGroup_item li {
+ 	margin-top: 0.5em;
+}
+
+.productFile_item_title {
+    font-size: 1.5em; 
+    font-weight: bold;
+}
+
+.productFile_list li {
+    width: auto;
+}
+
+.productFile_list {
+    padding-bottom: 1em;
+}
+
+.productFile_download_link {
+margin-left: 2em;
+}
+
+.productFile_fileName_div
+{
+    padding: 0 !important;
+}

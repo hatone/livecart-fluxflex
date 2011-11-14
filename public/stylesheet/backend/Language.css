@@ -1,0 +1,180 @@
+label.radio {
+	width: auto;
+	float: left;
+	margin-right: 10px;
+}
+
+.menuFieldSet table td {
+  	vertical-align: middle;
+	padding: 5px;
+}
+
+/* index */
+
+#langPageMenu li
+{
+    background-image: url(../../image/silk/world_add.png);
+}
+
+#languageList_template
+{
+  	display: none;
+}
+
+#languageList {
+  	width: 30em;
+}
+
+#languageList li {
+	margin-bottom: 10px;
+  	padding: 5px;
+}
+
+#addLang div {
+	margin-bottom: 10px;
+}
+
+#languageList .activeList_icons {
+	position: absolute;
+	left: 5px;
+	width: auto;
+}
+
+.langTitle {
+  	font-weight: bold;
+}
+
+#languageList .checkbox {
+  	margin: 0;
+	margin-left: 2px;
+	float: none;
+}
+
+#languageList .langListMenu {
+	font-size: smaller;
+}
+
+.langDefault {
+  	font-weight: bold;
+  	display: none;
+}
+
+.langListContainer {
+  	padding-left: 60px;
+}
+
+.langListContainer .progressIndicator
+{
+    padding-left: 1px;
+}
+
+.langInactive {
+  	display: none;
+}
+
+.setDefault,
+.default .langDefault,
+.disabled .langInactive
+{
+  	display: inline;
+}
+
+.default .setDefault,
+.disabled .langListMenu
+{
+  	display: none;
+}
+
+/* edit */
+.langExport a
+{
+    background-image: url(../../image/silk/compress.png);
+}
+
+.langAddPhrase a
+{
+    background-image: url(../../image/silk/add.png);
+}
+
+#langPath
+{
+    margin-bottom: 1.4em;
+}
+
+#langPath div
+{
+    padding-left: 0;
+    padding-bottom: 3px;
+    font-size: larger;
+    border-bottom:1px solid #CCCCCC;
+    font-weight: bold;
+    float: left;
+    clear: left;
+}
+
+div.tip
+{
+    margin-bottom: 20px;
+}
+
+#langNotFound, #foundMany {
+  	margin-top: 5px;
+  	color: red;
+}
+
+.lang-translation input, .lang-translation textarea {
+	width: 445px;
+}
+
+.lang-translation textarea {
+	height: 150px;
+}
+
+.lang-key {
+  	width: 200px;
+  	font-size: smaller;
+}
+
+.lang-translation {
+  	width: 450px;
+  	padding-right: 5px;
+}
+
+.lang-translation span {
+	color: #999999;
+	font-size: smaller;
+}
+
+.rightConfirmations
+{
+    position: absolute ! important;
+    right: 0px ! important;
+    width: 600px ! important;
+}
+
+#navLang
+{
+    margin-bottom: 10px;
+}
+
+#translations
+{
+    display: block;
+	margin-bottom: 15px;
+}
+
+#addPhraseForm label
+{
+	display: block;
+	float: none;
+}
+
+#addPhraseForm input.text
+{
+	width: auto;
+}
+
+#customFile
+{
+	font-weight: bold;
+}

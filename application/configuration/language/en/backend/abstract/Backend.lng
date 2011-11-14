@@ -1,0 +1,114 @@
+_home=Home
+_base_help=Help
+_change_language=Language
+_logged_as=Logged in as
+_frontend=Store Front-end
+_logout=logout
+_modules_updates=Modules and Updates
+
+# Common translations
+
+_or=or
+_cancel=Cancel
+_save=Save
+_add=Add
+
+_other=Other
+_enter_other=Enter Other >>
+
+_translate=Translate to: [_1]
+
+# ActiveList icon captions
+_activeList_edit=Edit
+_activeList_delete=Delete
+
+_yes=Yes
+_no=No
+
+# ActiveGrid
+_change_columns=Change columns
+_with_selected=With selected
+_grid_show_all=Show All
+_grid_equals=Equals
+_grid_not_equal=Does Not Equal
+_grid_greater=Greater Than
+_grid_less=Less Than
+_grid_greater_or_equal=Greater Than or Equal To
+_grid_less_or_equal=Less Than or Equal To
+_grid_range=Range
+_grid_export=Export data
+_grid_reload=Reload
+_today=Today
+_yesterday=Yesterday
+_last_7_days=Last 7 days
+_all_time=All time
+_grid_date_range=Custom date range
+
+# Tabs
+_more_tabs=More
+
+# Language forms
+_langform_translate=Translate
+
+# Units
+
+_switch_to_english_units=Switch to English units
+_switch_to_metric_units=Switch to Metric units
+
+_units_kg=Kg
+_units_g=g
+_units_lbs=lbs
+_units_oz=oz
+_units_kilograms=kilograms
+_units_grams=grams
+_units_ounces=ounces
+_units_pounds=pounds
+
+
+_enable=Enable
+_disable=Disable
+_delete=Delete
+_columns=Columns
+
+_translate_to=Translate to
+
+_allow_all_variations=Allow purchasing multiple variations from product page
+_show_variation_images=Show variation images in main product page
+_list_style=Product list style
+
+#################################################
+# Addresses                                     #
+#################################################
+_same_billing_and_shipping_addresses?=Same billing and shipping address?
+_billing_address=Billing Address
+_shipping_address=Shipping Address
+_address=Address
+_city=City
+_state=State
+_company=Company
+_country=Country
+_postal_code=Postal code
+_phone=Phone
+
+_loading=Loading data...
+
+# Backend error message
+_internal_error_have_accurred=Internal error has occurred
+
+_weight=Weight
+_subtotal=Subtotal
+
+_hint_quick_search=Search products, orders, users, etc.
+_advanced_search=Advanced search
+
+# backend footer panel
+_store_frontend=Store frontend
+_admin_dashboard=Admin dashboard
+_button_added=Button added
+_cant_add_button=Can't add button
+_button_removed=Button removed
+_cant_remove_button=Can't remove button
+_button_order_changed=Button order changed
+_cant_change_button_order=Can't change button order
+_last_viewed=Last viewed
+_tip_toolbar_drag=Drag & drop most used commands from the top menu here for easy short-cut access

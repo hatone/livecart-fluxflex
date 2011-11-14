@@ -1,0 +1,221 @@
+_products_and_categories=Products and Categories
+_loading_product=Loading product...
+
+# Category selection popup
+_select_category=Select category
+_confirm_move=Are your sure you want to move the selected products to this category:
+_move_products=Move products
+_proceed=Proceed
+
+# Product tabs
+_done_editing_product=Done editing product
+_product_page=Product page
+_basic_data=Basic data
+_stock_pricing=Stock & Pricing
+_images=Images
+_variations=Variations
+_related=Cross-sell
+_upsell=Up-sell
+_files=Files
+_info=Info
+_options=Options
+_bundled_products=Bundled Products
+_product_categories=Categories
+
+# Confirmations
+_new_category_was_successfully_created=New category was successfully created
+_could_not_create_a_category=Could not create a category
+_confirm_remove_category_with_products=This category contains products that would be permanently deleted together with the category. Really delete this category?
+_category_was_successfully_removed=Category was successfully removed
+_could_not_remove_category=Could not remove selected category
+_categories_tree_was_reordered=Categories tree was reordered
+_unable_to_reorder_categories_tree=Unable to reorder categories tree
+_category_succsessfully_saved=Category was successfully updated
+_category_image_was_successfully_saved=Category image was successfully saved
+_product_image_was_successfully_saved=Product image was successfully saved
+_product_file_was_successfully_saved=Product file was successfully saved
+_a_relationship_between_products_was_successfully_created=A relationship between products was successfully created
+_could_not_create_product_relationship=This product has already been assigned as related
+_could_not_save_product_file=Could not save product file
+_could_not_save_product_image=Could not save product image
+
+# SpecField
+_SpecField_main=Main
+_SpecField_values=Values
+_SpecField_translations=Translations
+_SpecField_title=Title
+_SpecField_handle=Handle
+_SpecField_description=Description
+_SpecField_value_type=Value type
+_SpecField_type=Type
+_SpecField_add_values=Enter more values
+_SpecField_select_multiple=Can select multiple values
+_SpecField_is_required=Required
+_specField_group_title=Title
+_SpecField_formated_text=Formated text
+_specField_merge_values=Merge values
+_specField_cancel_merge_values=Cancel merge
+
+# specification fields types
+_SpecField_text=Text
+_SpecField_numbers=Number
+_SpecField_type_numbers=Field
+_SpecField_type_numbers_selector=Options
+_SpecField_type_simple_text=Field
+_SpecField_type_formatted_text=Advanced
+_SpecField_type_text_selector=Options
+_SpecField_type_date=Date
+
+_SpecField_sortable=Allow sorting products by attribute value
+_SpecField_displayed_on_front_page=Display attribute in product page
+_SpecField_displayed_in_product_list=Display attribute in product list
+_SpecField_valuePrefix=Value prefix
+_SpecField_valueSuffix=Value suffix
+
+# Filter
+_Filter_main=Main
+_Filter_filters=Filters
+_Filter_translations=Translations
+_Filter_group_name=Group name
+_Filter_associated_field=Associated attribute
+_Filter_name=Name
+_Filter_range=Range
+_Filter_add_filter=Add filter
+_Filter_value=Value
+_Filter_date_range=Date between
+_Filter_handle=Handle
+_Filter_displayLocation=Display location
+_side_menu=Side menu
+_top_menu=Top menu
+
+_tip_Filter_associated_field=All filters are based on a particular product attribute
+_tip_Filter_name=Filter name can be different than the product attribute the filter is based on
+_tip_Filter_displayLocation=Filters can be displayed in 2 ways: <ul><li>as links or checkboxes in the side menu</li><li>as drop-down boxes at the top of the product list. This option allows to create sequential and controlled product drill-down, which is useful, for example, for parts searching (select make first, then model, then year, etc.)</li></ul>
+_tip_Filter_filters=Create individual filters, which are based on ranges of the attribute values
+
+# Product
+_product_information_was_saved=Product information was saved successfully
+_notification_product_was_successfuly=Product was added successfully. You may now add another product.
+_product_added_continuing=Product was added successfully. Loading product modification form...
+
+# Product select popup
+_done_adding=Done adding products
+_select_product=Select a product
+
+# ProductFileGroup
+_productFileGroup_title=Group title
+
+# ProductFile
+_add_file_title=Add New File
+_productFile_change_fileName=File name
+_productFile_allow_download_for=Allow to download for
+_productFile_allow_download_times=Allow downloading
+_productFile_title=File title
+_productFile_description=File description
+_days=days (0 - unlimited)
+_times=times (0 - unlimited)
+_upload_a_file=Upload a file
+_enter_path_or_url=Enter local path or URL
+_product_file_group_title=Title
+_add_new_file_group_title=Add New File Group
+_add_new_file_group=Add new file group
+_product_file_max_size=Max file size: [_1]
+_productFile_isPublic=Public file (downloadable without purchasing)
+_productFile_embedded=Embed media file in page (supported formats: [_1])
+
+# Product relationship
+_product_relationship_group_title=Title
+
+# Product options
+_ProductOption_main=Main
+_ProductOption_values=Choices
+_ProductOption_is_required=Required
+_ProductOption_displayed_in_product_page=Displayed in product page
+_ProductOption_displayed_in_list=Displayed in product list
+_ProductOption_displayed_in_cart=Displayed in shopping cart
+_ProductOption_type=Type
+_ProductOption_type_bool=Checkbox
+_ProductOption_type_select=Selection
+_ProductOption_type_text=Text entry
+_ProductOption_type_file=Customer file upload
+_ProductOption_title=Title
+_ProductOption_selectMessage=Default selection message
+_ProductOption_display_as=Display selection as
+_ProductOption_displayType_selectBox=Select box
+_ProductOption_displayType_radioButtons=Radio buttons
+_ProductOption_maxFileSize=Max file size
+_ProductOption_maxFileSize_help=File size cannot exceed [_1] as per PHP configuration
+_ProductOption_fileExtensions=Allowed file extensions
+_ProductOption_fileExtensions_help=Separated by spaces. For example, <strong>jpg png gif</strong>
+_ProductOption_megabytes=MB
+_option_price_diff=Price difference
+_ProductOption_price_included=Include product price in option display price
+_ProductOption_description=Description
+_option_name=Title
+_ProductOption_add_values=Add choice
+
+# index
+_products=Products
+_category_details=Category Details
+_attributes=Attributes
+_filters=Filters
+_images=Images
+_rating_categories=Rating Categories
+_reviews=Reviews
+_product_lists=Product Lists
+_related_categories=Related Categories
+_create_subcategory=Create new sub-category
+_remove_category=Remove
+_new_category=New Category
+_reorder_failed=Could not move category
+_confirm_category_remove=Are you sure you want to remove this category?
+_move_category_up=Move up
+_move_category_down=Move down
+_with_selected_category=With selected category
+
+#form
+_category_name=Category name
+_category_handle=Handle
+_descr=Description
+_keywords=Keywords
+_pageTitle=Page title
+_save=Save
+_cancel=Cancel
+_active=Enabled (visible)
+
+_presentation=Presentation
+_theme=Design theme
+_theme_subcategories=Apply for sub-categories
+
+_hint_pageTitle=Display different page title than category name for SEO purposes
+_tip_show_variation_images=Display clickable thumbnail images of all product variations in the product detail page
+_tip_allow_all_variations=Display all variation combinations with order quantity selections in the product detail page. This allows customers to add different variations of the same base product to the shopping basket at the same time.
+_tip_theme=Use a different display theme for the detail page of this product
+_tip_theme_subcategories=Apply presentation settings to all sub-categories and products of this category
+_tip_list_style=Set a different layout of product list presentation
+_tip_keywords=Will be used in meta tags
+_tip_descr=Category description is displayed at the top of the category page and also included in the page meta tags
+_tip_active=Inactive categories are not visible in the category list, however they are not completely disabled and products from such category can still be purchased. You can insert links to inactive categories in templates, newsletter messages, etc. This is useful when some special/private categories need to be singled out from the category list. If this is not necessary and you wish to disable the products as well, simply mark all products of the inactive category and disable them separately.
+
+_tip_SpecField_type=Field type cannot be changed after the field is created. Type can be either text or number (custom input or selectable from pre-entered values) as well as date.
+_tip_SpecField_select_multiple=Allow selecting multiple pre-entered values (list with checkboxes instead of a drop-down menu)
+_tip_SpecField_formated_text=Multi-line text entry with a WYSIWYG editor
+_tip_SpecField_title=Attribute name
+_tip_SpecField_handle=Used for 2 main purposes: <ul><li>included in page URL's when a product list is filtered by an attribute</li><li>for customization purposes - to easily retrieve value of a particular field in page templates or custom plugins</li></ul>
+_tip_SpecField_valuePrefix=Automatically prepend entered number when displaying it (add text before number)
+_tip_SpecField_valueSuffix=Automatically append entered number when displaying it (add text after number), for example, for hard drive capacity attributes - <em>120<strong> GB</strong></em>
+_tip_SpecField_is_required=Attribute field value cannot be left blank
+_tip_SpecField_displayed_on_front_page=Display attribute value in the detailed specification section of the product page
+_tip_SpecField_displayed_in_product_list=Intended for a quick overview of the main attributes. Displayed without the field names (by default). For example for computers, the whole attribute display might look like this - <em>AMD Dual Core / 2.2 GHz / 2 GB / 250 GB</em>
+_tip_SpecField_sortable=Add the attribute to product sorting choice menu
+
+_tip_ProductOption_is_required=Do not allow purchasing a product without choosing this option
+_tip_ProductOption_displayed_in_product_page=Display option selection in the product detail page
+_tip_ProductOption_displayed_in_cart=Display option selection in the shopping cart page
+_tip_ProductOption_price_included=Display option price with the base product price added to it (customers can instantly see what the total will be)
+_tip_ProductOption_type=There are several types of product options: <ul><li><strong>Checkbox</strong> - a true/false type of selection</li><li><strong>Selection</strong> - select one of multiple choices</li><li><strong>Text entry</strong> - customers can enter their own text (personalization, gift message, etc.)</li><li><strong>File upload</strong> - customers can upload their own files</li></ul>
+_tip_ProductOption_display_as=Available options can be presented either in a drop-down menu (requires a mouse click by customer to see the available choices, but takes less screen space) or radio buttons (all choices are always visible, but take more space)
+_tip_ProductOption_selectMessage=A text to display in the drop-down box before any option is selected
+_tip_option_price_diff=Amount to add to product base price if the option is selected. Leave blank if product price does not need to change. You can also enter negative price difference to reduce base product price (for example, for unselecting default options)
+_tip_ProductOption_description=Description of the product option, which will be displayed under the option selection in the product and cart pages
+_tip_option_name=The actual option selection type. For example, if this is an option for choosing product color, the values could be Red, Green, Blue, Black, etc.

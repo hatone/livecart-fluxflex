@@ -1,0 +1,149 @@
+.tabFields .activeList_icons
+{
+    vertical-align: baseline;
+}
+
+.addProductOption
+{
+    background-image: url(../../image/silk/tag_blue_add.png);
+}
+
+.productOption legend, .productOption_step_values, .productOption_language_translation
+{
+    display: none;
+}
+
+.productOption_step_lev1 {
+    background: white;
+}
+
+.productOption .productOption_step_translations_language legend {
+    cursor: pointer;
+    cursor: hand;
+    display: block;
+}
+
+.productOption_form_type_static
+{
+    font-size: 110%;
+}
+.productOption fieldset {
+    margin-right: 1em;
+}
+
+.productOption_title, .productOption_choiceCount {
+    font-size: 200%;
+}
+
+.productOptionList .activeList_container {
+    padding-left: 80px;
+}
+
+.productOptionList li li {
+    width: 100%;
+}
+
+.productOptionList {
+  	padding-bottom: 1em;
+}
+
+.productOption_form_values_group div input.productOption_valueName, input.productOption_update {
+    width: 30em;
+}
+
+.productOption_language_link {
+    display: inline;
+    padding: 0 5px;
+}
+
+.productOption_change_state {
+    padding: 0 5px;
+}
+
+.productOption .productOption_step_translations_language {
+    background: #ddd;
+}
+
+.productOption_form_values_value .productOption_form_values_default_checkbox {
+    width: auto;
+}
+
+.productOption_mergeValuesLink, .productOption_mergeValuesCancelLink
+{
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.productOption .productOption_mergeCheckbox
+{
+   float: none;
+}
+
+.productOption_controls {
+    padding-left: 2em;
+}
+
+.productOption_valueMergedLooser
+{
+    background-color: #FF8990 ! important;
+}
+
+.productOption_valueMergedWinner
+{
+    background-color: #BBE5C1 ! important;
+}
+
+.productOption_save {
+    margin: 0;
+}
+
+.productOption_add_field {
+    white-space: nowrap;
+    margin-left: 56px;
+    color: red;
+}
+
+.productOption_values_controls
+{
+    margin-bottom: 2em ! important;
+}
+
+.productOption_values {
+    width: auto !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+}
+
+h2.productOption_values_title {
+   width: 7em ! important;
+}
+
+.productOption_step_translations, .productOption_step_values_translations {
+    margin-top: 20px;
+}
+
+/* START Values active list */
+fieldset.productOption_step_values  .activeList_icons {
+    width: 50px;
+}
+
+fieldset.group h2 {
+    font-size: 1em;
+    font-weight: normal;
+}
+/* END Values active list */
+
+.productOption ul {
+    list-style: none;
+}
+
+.productOption_step_translations_language_active {
+    background: yellow;
+    padding: 5px;
+}
+
+/* IE */
+.productOption_step_translations_language {
+    position: relative;
+}

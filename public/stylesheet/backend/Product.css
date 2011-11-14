@@ -1,0 +1,226 @@
+#productManagerContainer span.tabCounter
+{
+    margin-left: 6px;
+	vertical-align: middle;
+}
+
+.doneProduct
+{
+    float: left;
+    margin-bottom: 8px !important;
+}
+
+#productPage
+{
+	padding-right: 22px;
+	background-image: url(../../image/silk/gif/resultset_next.gif);
+	background-position: center right;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+#productTabList
+{
+	padding-bottom: 4px;
+}
+
+#toggle_tabProductBundle
+{
+	display: none !important;
+}
+
+/*************************
+	Product form
+*************************/
+.productForm.intangible .shipping, .productForm.intangible .inventory
+{
+    display: none;
+}
+
+.productForm.intangible .inventory.downloadableInventory
+{
+	display: block;
+}
+
+.autoSKU
+{
+    position: relative;
+    top: 5px;
+}
+
+.tabProductBasicContent .autoSKU
+{
+    display: none;
+}
+
+.listPrice
+{
+	margin-left: 1.5em;
+}
+
+.listPrice input
+{
+	font-size: smaller;
+}
+
+/*************************
+	Product list
+*************************/
+li.addProduct
+{
+    background-image:url(../../image/silk/add.png);
+}
+
+.productsList
+{
+  	width: 100%;
+}
+
+.cell_cb
+{
+/*	width: 4% !important; */
+	text-align: center !important;
+}
+
+.cell_cb input
+{
+	float: none;
+	margin-right: 0;
+	width: auto;
+}
+
+.headRow .cell_cb span
+{
+	display: none;
+}
+
+.cellt_numeric, .cellt_bool, .cellt_date
+{
+	width: 10%;
+	text-align: center;
+}
+
+.cell_Product_sku
+{
+	width: 10% !important;
+}
+
+.cell_Product_name
+{
+	width: 38% !important;
+}
+
+.cell_Manufacturer_name
+{
+	width: 15% !important;
+}
+
+.cell_ProductPrice_price
+{
+	width: 13% !important;
+	text-align: center;
+}
+
+.cell_Product_stockCount
+{
+	width: 10% !important;
+	text-align: center;
+}
+
+.cell_Product_isEnabled
+{
+	width: 10% !important;
+	text-align: center;
+}
+
+.lowStock
+{
+  	color: red;
+}
+
+.notEnabled
+{
+/*  	color: red;*/
+}
+
+/* Hide product type */
+.cell_hiddenType, #column_hiddenType, #column_hiddenType_label {
+    display: none;
+}
+
+.activeGridcolumn_hiddenType
+{
+    display: none;
+}
+
+/********************
+	Pricing
+*********************/
+.productForm .pricing label
+{
+	width: 50px;
+}
+
+a.setQuantPrice
+{
+	display: block;
+	margin-bottom: 5px;
+	font-size: 11px;
+}
+
+div.quantityPricing
+{
+	margin-bottom: 1em;
+}
+
+.quantityPricing table
+{
+	border: 1px solid #eee;
+}
+
+div.quantityPricing .quantityLabel,
+div.quantityPricing .groupLabel
+{
+	font-size: smaller;
+	font-weight: bold;
+}
+
+div.quantityPricing .quantityLabel
+{
+	float: right;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+
+div.quantityPricing .groupLabel
+{
+	margin-top: 24px;
+	float: left;
+	padding-left: 5px;
+}
+
+.quantityPricing select
+{
+	width: 150px;
+}
+
+.quantityPricing td
+{
+	padding: 0 2px;
+}
+
+.quantityPricing .number
+{
+	width: 30px;
+	font-size: smaller;
+}
+
+.quantityRow, .groupColumn
+{
+	background-color: lightyellow;
+}
+
+.prodImageEditForm .addForm
+{
+	margin: 1.5em;
+}

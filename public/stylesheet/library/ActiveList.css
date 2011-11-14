@@ -1,0 +1,79 @@
+.activeList_icons
+{
+    width: 90px;
+    vertical-align: middle;
+}
+
+.singleInput .activeList_icons
+{
+    display: block;
+    float: left;
+    padding-top: 8px;
+}
+
+.activeList_icons_container
+{
+    width: 16px;
+    height: 16px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+ul.activeList, .activeListGroup
+{
+    list-style: none;
+    position: relative;
+	min-height: 20px;
+}
+
+.activeList li, .activeListGroup li
+{
+    padding: 5px;
+    width: auto;
+}
+
+li.activeList_even, li.activeList_odd
+{
+    list-style: none;
+    margin: 5px 10px;
+    margin-left: 0;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #FAFAFA;
+    border: 2px solid #EEEEEE;
+}
+
+li.activeList_even:hover, li.activeList_odd:hover
+{
+    border: 2px solid #ccc;
+}
+
+.activeList label
+{
+    white-space: normal;
+}
+
+ul.activeListGroup > li
+{
+    overflow: visible;
+}
+
+.activeList_add_sort li {
+    cursor: move;
+}
+
+li.activeList_delete_inProgress
+{
+    background-color: #FFE0E0 ! important;
+}
+
+li.activeList_edit_inProgress, li.activeList_remove_sort
+{
+    cursor: auto;
+}
+
+.activeListTitle
+{
+	font-size: 200%;
+}

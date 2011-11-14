@@ -1,0 +1,7 @@
+<Menu>
+	<Title>_menu_import_csv</Title>
+	<Controller>backend.csvImport</Controller>
+	<Role>csvimport</Role>
+	<Icon>image/silk/page_white_excel.png</Icon>
+	<Descr>_menu_descr_import_csv</Descr>
+</Menu>

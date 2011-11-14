@@ -1,0 +1,220 @@
+_loading_order=Loading order...
+
+# Confirmations
+_new_order_has_been_successfully_created=New order has been successfully created
+_order_information_has_been_successfully_updated=Order information has been successfully updated
+_order_address_information_has_been_successfully_updated=Order address information has been successfully updated
+_order_status_has_been_successfully_changed=Order status has been successfully changed
+_order_is_canceled=Order is cancelled
+_order_is_accepted=Order is accepted
+_order_address_was_successfully_updated=Order address was successfully updated
+_empty_shipments_were_removed=Empty shipments were removed
+_error_updating_order_address=An error occurred updating order address
+_error_updating_order_status=An error occured updating order status
+_mass_action_succeed=Mass action succeed
+
+_are_you_sure_you_want_activate_this_order=Are you sure you want to activate this order?
+_are_you_sure_you_want_cancel_this_order=Are you sure you want to cancel this order?
+_confirm_change_paid_status=Really change the payment status for this order?
+
+_order_number=Order #
+
+# Errors
+_err_user_has_no_billing_or_shipping_address=User has no default billing or shipping address
+_invalid_status=Invalid status
+
+_all_users=All users
+_default_user_group=Default user group
+
+_accepted=accepted
+_canceled=cancelled
+
+_accept_order=Accept order
+_cancel_order=Cancel order
+_this_order_is=This order is
+
+_finalize=Finalize order
+_recalculate_discounts=Recalculate discounts
+_order_is_finalized=The order has been finalized
+
+# Tree
+_all_orders=All Orders
+_current_orders=Current
+_new_orders=New
+_processing_orders=Processing
+_awaiting_shipment_orders=Awaiting Shipment
+_shipped_orders=Shipped
+_returned_orders=Returned
+_cancelled_orders=Cancelled
+_shopping_carts=Shopping Carts
+_orders=Orders
+_livecart_orders=Orders
+
+_create_order=Create new order
+
+_billing_addresses=Billing Addresses
+_shipping_addresses=Shipping Addresses
+
+# Tabs
+_order_info=Info
+_order_shipments=Products
+_order_payments=Payments
+_order_communication=Communication
+_order_log=Change History
+_previous_orders=Previous Orders
+
+_order_report=Report
+
+# Grid columns
+CustomerOrder.ID=ID
+CustomerOrder.invoiceNumber=Invoice number
+CustomerOrder.status=Status
+CustomerOrder.totalAmount=Order total
+CustomerOrder.capturedAmount=Captured amount
+CustomerOrder.isFinalized=Finalized
+CustomerOrder.isPaid=Paid
+CustomerOrder.isMultiAddress=Shipped to multiple addresses
+CustomerOrder.isCanceled=Cancelled
+CustomerOrder.dateCreated=Created
+CustomerOrder.dateCompleted=Completed
+CustomerOrder.isCancelled=Is cancelled
+CustomerOrder.taxAmount=Tax amount
+ShippingAddress.firstName=Recipient first name
+ShippingAddress.lastName=Recipient last name
+ShippingAddress.countryID=Country
+ShippingAddress.city=City
+ShippingAddress.address1=Address
+ShippingAddress.address2=Address line 2
+ShippingAddress.postalCode=Postal code
+ShippingAddress.countryName=Country
+ShippingAddress.stateName=State
+ShippingAddress.phone=Phone
+ShippingAddress.companyName=Company
+User.ID=User ID
+User.email=E-mail
+User.firstName=First name
+User.lastName=Last name
+User.companyName=Company name
+User.fullName=Full name
+OrderedItem.count=Count
+OrderedItem.price=Unit price
+OrderedItem.priceCurrencyID=Currency
+OrderedItem.itemSubtotal=Item subtotal
+OrderedItem=Ordered product
+OrderedItem.shipment=Shipment number
+OrderedItem.products=List of ordered products
+
+_listing_orders=Listing orders $from - $to of $count
+_no_orders=No orders found
+_STATUS_AWAITING=Awaiting Shipment
+_detailed_export=Export order details
+
+# Mass actions
+_nothing_selected=Please select at least one order first
+_with_selected=With selected
+_order_status=Order Status
+_set_new=New
+_set_processing=Processing
+_set_awaiting_shipment=Awaiting shipment
+_set_shipped=Shipped
+_set_returned=Returned
+_mark_completed=Mark as completed order
+_print_shipping_labels=Print shipping labels
+_process=Save
+
+# Order summary
+_overview=Overview
+_print_invoice=Print invoice
+_is_paid=Is paid
+_status=Status
+_date_completed=Date completed
+_date_created=Date created
+_amount=Amount
+_email=Email
+_user=User
+
+_livecart_users=Please select an user account
+_select_customer=Please select a customer account
+_cancel_editing_order_info=Done editing order
+_cancel_creating=Cancel creating new order
+_user_info=User info
+_is_canceled=Is cancelled
+_order_id=Order ID
+_is_finalized=Is finalized
+_mark_as_paid=Mark as paid
+
+_custom_info=Custom Information
+_no_info_entered_yet=No custom information has been entered yet
+
+_edit=Edit
+_view=View
+
+_are_you_sure_you_want_to_delete_this_order=Are you sure you want to delete this order?
+_are_you_sure_you_want_to_update_order_status=Are you sure you want to update order status?
+
+_applied=Applied
+_cancelled=Cancelled
+
+# Addresses
+_use_existing_address=Use existing address?
+_name=Name
+_company=Company
+_first_name=First name
+_last_name=Last name
+_other_state=Other state
+_phone=Phone
+
+# Errors
+_invalid_Status=Invalid status
+
+_country_empty=Please select the country
+_city_empty=Please enter the city name
+_address_empty=Please enter the address
+_first_name_is_empty=Please enter the first name
+_last_name_is_empty=Please enter the last name
+
+# Invoice
+_order_invoice=Invoice
+
+# Checkout progress
+_progress_0=Shopping cart page
+_progress_1=Registered user
+_progress_2=Address entered
+_progress_3=Shipping method selected
+_progress_4=Payment attempted
+
+AdvancedSearchCondition.ProductSKU=Product SKU
+AdvancedSearchCondition.ProductName=Product name
+AdvancedSearchCondition.Manufacturer=Manufacturer
+AdvancedSearchCondition.HasUsedCoupon=Has used coupon
+AdvancedSearchCondition.UsedCouponCount=Used coupon count
+AdvancedSearchCondition.UsedCouponCode=Used coupon code
+AdvancedSearchCondition.ProductCount=Product count
+AdvancedSearchCondition.UniqueProductCount=Unique product count
+
+# Advanced grid filter fields
+HasUsedCoupon=Has used coupon
+UsedCouponCount=Used coupon count
+ProductCount=Product count
+UniqueProductCount=Unique product count
+ProductSKU=SKU
+ProductName=Product name
+Manufacturer=Manufacturer
+UsedCouponCode=Used coupon code
+ProductOption=Ordered product option
+HasUnreadCustomerMessage=Has unread customer messages
+HasUnrespondedCustomerMessage=Has unresponded customer messages
+OrderMessageText=Order message text
+
+_advanced_product_search=Advanced product search
+_search_product=Search product
+_search_product_tip1=Enter product name, SKU or manufacturer to search for a product
+_search_product_tip2=You can also add multiple products at once by entering SKU's seperated by commas, for example, "SKU1, SKU4, SKU10"
+
+_add_to_order=Add to order
+_cannot_add_empty_result=Cannot add products, because product search result is empty
+_add_all_found_products=Are you sure want to add [1] products?
+
+_add_to_shipment=Add to shipment
+_add_coupon=Add coupon
+_add_coupon_code=Add coupon code

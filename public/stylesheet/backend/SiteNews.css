@@ -1,0 +1,71 @@
+#newsMenu li.addNews
+{
+    background-image: url(../../image/silk/newspaper_add.png);    
+}
+
+#addNews
+{
+    width: 650px;
+}
+
+#newsList
+{
+    width: 700px;
+}
+
+#newsList li
+{
+    padding: 5px;
+	width: 43em;
+}
+
+#newsList .activeList_icons 
+{
+    left: 5px;
+    position: absolute;
+    width: auto;
+}
+
+#newsList li .checkbox
+{
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.newsTitle
+{
+    font-weight: bold;
+    float: left;
+}
+
+.newsDate
+{
+    font-size: smaller;
+    float: right;
+}
+
+.newsListContainer
+{
+    padding-left: 60px;
+}
+
+.newsText
+{
+    display: block;
+}
+
+#newsList textarea 
+{
+    width: 30em;
+}
+
+#newsList input.add, #addNews input.save
+{
+    display: none;
+}
+
+.formContainer
+{
+    padding-left: 60px;
+    padding-top: 1em;
+}

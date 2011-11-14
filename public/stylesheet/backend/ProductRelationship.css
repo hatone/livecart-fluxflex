@@ -1,0 +1,70 @@
+#productManagerContainer .addProduct
+{
+    background-image: url(../../image/silk/link_add.png);
+}
+
+.tabProductLists .addGroup, #productManagerContainer .addGroup
+{
+    background-image: url(../../image/silk/table_add.png);
+}
+
+.tabProductLists .groupTitle, #productManagerContainer .groupTitle
+{
+    color: grey;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+li.groupContainer
+{
+    border: 2px solid grey;
+    margin-bottom: 0.5em;
+}
+
+li.groupContainer li
+{
+ 	margin-top: 0.5em;
+}
+
+.productRelationship_title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.productRelationship_image
+{
+    width: 80px;
+    float: left;
+    text-align: center;
+}
+
+.subList {
+    padding-bottom: 1em;
+}
+
+.subList .activeList_icons
+{
+    float: left;
+    width: 50px;
+    padding-top: 4px;
+}
+
+.subList li
+{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: auto;
+}
+
+a.openRelatedProduct
+{
+    background-image: url(../../image/silk/application_go.png);
+    background-repeat: no-repeat;
+    padding-left: 22px;
+    margin-left: 10px;
+}
+
+.tabProductLists .activeList ul.menu
+{
+	margin-left: 2px;
+}

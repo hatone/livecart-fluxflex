@@ -1,0 +1,8 @@
+[setup]
+ln -s . public_html
+
+[permission]
+cache         777 
+storage       777
+public/cache  777 
+public/upload 777

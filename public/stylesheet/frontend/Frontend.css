@@ -1,0 +1,3278 @@
+/* resets */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, /*strong, */sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, #border-color-var
+{
+	margin: 0; padding: 0; border: 0 solid; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; background-repeat: no-repeat; background-position: center left;
+	border-color: #ddd;
+}
+
+body
+{
+	line-height: 1.5;
+	color: black;
+	background: white;
+}
+
+ul, ul li
+{
+	list-style: none;
+}
+
+ol
+{
+	margin-left: 2em;
+}
+
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+caption, th, td
+{
+	font-weight: normal;
+}
+
+.descr li,
+.newsEntry li,
+#productDescription li,
+.message li,
+.staticPageText li
+{
+	list-style-type: disc;
+	margin-left: 1.5em;
+}
+
+.descr ol li,
+.newsEntry ol li,
+#productDescription ol li,
+.message ol li,
+.staticPageText ol li
+{
+	list-style-type: decimal;
+}
+
+/* 100% height layout start >> */
+html.height, html.height body
+{
+	height: 100%;
+}
+
+html.height div#container
+{
+	position: relative; /* needed for footer positioning*/
+	height: auto !important; /* real browsers */
+	height: 100%; /* IE6: treated as min-height*/
+	min-height: 100%; /* real browsers */
+}
+
+html.height div#footer
+{
+	position: absolute;
+	width: 100%;
+	bottom: 0; /* stick to bottom */
+}
+
+html.height div#content
+{
+    margin-bottom: 75px;
+}
+/* << 100% height layout end */
+
+body, h4
+{
+    font-family: Verdana;
+    font-size: small;
+}
+
+a
+{
+	color: #143788;
+}
+
+h1, h2, h3
+{
+	font-family: "Trebuchet MS";
+}
+
+h1
+{
+	font-size: 200%;
+	margin-bottom: 10px;
+}
+
+h2
+{
+	margin-top: 20px;
+	margin-bottom: 1em;
+	padding-top: 7px;
+	border-top-width: 1px;
+	border-style: dashed;
+    font-size: 150%;
+}
+
+h3
+{
+	margin-bottom: 10px;
+    margin-top: 7px;
+    font-size: 150%;
+}
+
+td
+{
+	vertical-align: top;
+}
+
+p
+{
+	margin: 10px 0;
+}
+
+.clear
+{
+    clear: both;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    float: none !important;
+}
+
+/*****************************
+	Common declarations
+*****************************/
+
+/* 100% width labels */
+label.checkbox, label.radio,
+.productOptions label.field,
+.productVariations label,
+.reviewForm label,
+#noteForm label,
+label.cancel,
+.eavAttributes label
+{
+	float: none;
+	width: auto;
+}
+
+/* bold things */
+h4,
+#breadCrumbCaption,
+div.box .title,
+.price,
+#addToCart,
+.required label,
+.errorText,
+.eavAttributes .attrName,
+.featured .title a,
+.currentName,
+.filterGroup .showAll,
+.subCatName,
+.notFoundMain,
+.currentPage,
+.spec,
+.returnToCategory,
+tr.specificationGroup,
+.overallRating,
+.ratingCategoryName,
+.reviewTitle,
+#rateProduct .heading,
+.readAllReviews,
+div.checkout a,
+.subTotalCalc,
+.continueShopping,
+.proceedToCheckout,
+.shipment .subTotal,
+#cart .subTotal,
+#payTotal .subTotal,
+#invoicePaymentInfo .grandTotal td.amount,
+#invoicePaymentInfo .amountDue td.amount,
+.multiAddress .shipmentAddress,
+#userMenu li.selected,
+.cancelled,
+#checkoutProgress a.active,
+ul.downloadFile li.fileGroup,
+.compareData td.param,
+.compareData th a
+{
+	font-weight: bold;
+}
+
+/* red things */
+a.messages,
+.cancelled,
+a.cancel,
+.errorMsg,
+.errorText,
+.discount .actualPrice
+{
+	color: red;
+}
+
+/* auto-width select boxes */
+.quickSearch select,
+#language select,
+#productSort,
+.cartLinks select, select.quantity,
+#ccExpiryMonth, #ccExpiryYear, #ccType
+{
+	width: auto;
+}
+
+/* smaller input fields */
+.quickSearch select,
+.quickSearch input.text,
+.quickSearch input.submit,
+#language select,
+.cartName small
+#productSort
+{
+	font-size: 0.85em;
+	padding: 0;
+}
+
+/* smaller text */
+.logout,
+.latestNewsSide .date,
+#currency, #language,
+.newsReadMore,
+.count,
+li.moreSubCats,
+a.layoutSetList, a.layoutSetGrid,
+.spec,
+a.addToCart,
+.listPrice,
+.productListRating a,
+.overallRating a,
+.noStock, .lowStock,
+.forgottenPassword,
+#cart .productOptionsMenu,
+.cartControl a,
+.subTotalCalc,
+.fieldDescription,
+.progressOrder,
+a.cvv,
+.multiAddress .shipmentAddress,
+.box.compare li a
+{
+	font-size: smaller;
+}
+
+/* centered text */
+div.box .title,
+.subCategories td.subCatImage,
+.productGrid td,
+ul.productList .image,
+.overallRating,
+.noStock, .lowStock,
+#imageContainer,
+#moreImages,
+#rateProduct table td,
+.cartQuant,
+.cartPrice,
+.cartImage,
+#cartUpdate,
+#couponCodes .container,
+#checkoutProgress,
+.addressSelector .selector,
+.shipment td,
+.shipment .subTotal, #cart .subTotal,
+#invoiceHeader,
+td.amount,
+.compactProductList .image,
+.compactProductList .pricingInfo,
+.compareBoxMenu
+{
+	text-align: center;
+}
+
+/* left aligned text that needs to be overriden from right/center */
+.shipment .productName,
+.multiAddress .shipmentAddress
+{
+	text-align: justify;
+}
+
+/* right aligned text */
+#mainInfo td.param,
+.ratingBreakdown,
+td.addToWishList,
+.reviewIndex .pagingInfo,
+.multiAddressCheckout,
+#expressCheckoutMethods,
+.orderOverviewControls,
+div.addressControl,
+#invoicePaymentInfo td.amount,
+.multiAddressCheckout
+{
+    text-align: right;
+}
+
+/* vertical centering */
+.subCatImage,
+.subCategories td.details,
+.orderingControls *,
+.overallRating *,
+#mainInfo td,
+.ratingCategoryName,
+.ratingPreview,
+#cart td, #wishList td,
+.addressSelector .selector,
+#otherMethods img,
+img.calendar_button
+{
+    vertical-align: middle;
+}
+
+/* left floats */
+#leftSide,
+#logoContainer,
+.quickSearch,
+.allFilters .filterGroup,
+.resultStats .pagingInfo, .categoryLayoutSwitch,
+ul.productList .image,
+#productSummaryContainer,
+#ratingSummary,
+.ratingBreakdown,
+#imageContainer,
+#bundle .pricingInfo,
+.bundleList, .bundleInfo,
+.reviewIndex #ratingSummary,
+.continueShopping,
+.checkoutHeader h1,
+#billingAddressColumn,
+#shippingSelector,
+#ccForm,
+.addressContainer,
+#cvvExample,
+.newCustomer,
+#userMenuContainer,
+div.addressBlock,
+.orderDetails,
+.orderDetails .orderMenu,
+.responseUser,
+.manufacturerColumn,
+.manufacturerAttributes,
+label,
+input.radio, input.checkbox,
+#cvvHelp,
+.paymentMethods,
+.compactProductList div
+{
+	float: left;
+}
+
+/* right floats */
+#rightSide,
+#topMenuContainer,
+#currency, #language,
+.resultStats .sortOptions,
+ul.productList a.addToCart, .productGrid a.addToCart,
+ul.productList .pricingInfo,
+ul.productList .orderingControls,
+.specSummary,
+div.review .ratingBreakdown,
+.checkoutButtons,
+.proceedToCheckout,
+.completeOrderButton,
+#checkoutProgress,
+.returningCustomer,
+.noteDate,
+.checkout-pay .completeOverview,
+.manufacturerImage
+{
+	float: right;
+}
+
+/* links/menus with background images */
+.resultPages .previous,
+a.addToCart,
+ul.attributeList li,
+.continueShopping,
+#userMenu li,
+a.invoice, a.viewOrder, a.reorder, a.messages,
+ul.downloadFile li,
+.errorText
+{
+	padding-left: 22px;
+}
+
+/* right side background images */
+#smallCart a.checkout,
+.resultPages .next,
+.proceedToCheckout,
+.websiteUrl a
+{
+	padding-right: 22px;
+    background-position: center right;
+}
+
+/* background color 1: light grey */
+tr.odd,
+#searchContainer,
+div.box .content,
+#userMenuContainer,
+fieldset,
+div.addressBlock,
+.orderDetails,
+#productSummaryContainer,
+.noteText,
+#checkoutProgress a,
+.dynamicMenu ul,
+.rootCategories,
+.rootCategories .wrapper,
+#background-color1-var
+{
+    background-color: #F9F9F9;
+}
+
+thead,
+tr.heading td,
+#heading-color-var
+{
+    background-color: #ddd;
+}
+
+tr.even td,
+div.box .title,
+.rootCategories .current,
+.rootCategories li:hover,
+.rootCategories .li:hover,
+.rootCategories .hover,
+#background-color2-var
+{
+    background-color: #eee;
+}
+
+/* light yellow background */
+.highlight,
+#cartFields .container, #couponCodes .container,
+span.templateLocator span.templateName,
+.proceedToCheckout,
+#couponCodes .container,
+#payTotal div,
+#testHandlerWarning,
+#checkoutProgress a.active,
+.categoryLayoutSwitch a.active,
+.specSummary
+{
+	background-color: #fffccc;
+}
+
+tr.odd td, tr.even td
+{
+	border-bottom-width: 1px;
+}
+
+/*****************************
+	Layout
+*****************************/
+#container
+{
+  	margin: 0 auto;
+  	width: 950px;
+}
+
+#footer
+{
+	border-top-width: 1px;
+  	padding: 20px;
+  	text-align:center;
+}
+
+#leftSide
+{
+	width: 190px;
+	overflow: visible;
+	position: relative;
+	margin-bottom: 120px;
+}
+
+#rightSide
+{
+	width: 210px;
+	display: none;
+	padding-right: 10px;
+}
+
+#content
+{
+	margin-left: 190px;
+	padding: 0 10px;
+	padding-bottom: 10px;
+}
+
+#content.left
+{
+	margin-left: 0;
+}
+
+#content.right,
+body.threeColumn #content.right
+{
+	margin-right: 0;
+	padding-right: 0;
+}
+
+body.threeColumn #content
+{
+	padding-right: 240px;
+}
+
+#content,
+#leftSide,
+#rightSide
+{
+	padding-top: 10px;
+}
+
+/*****************************
+	Header
+*****************************/
+#header
+{
+    padding-top: 6px;
+	z-index: 50;
+	position: relative;
+	width: 100%;
+}
+
+#topMenuContainer
+{
+	margin-right: 1em;
+}
+
+#smallCart a.checkout
+{
+	background: url(../../image/silk/gif/cart_go.gif) center right no-repeat;
+}
+
+#logoContainer
+{
+	padding: 8px;
+}
+
+/*****************************
+	Boxes
+*****************************/
+div.box
+{
+	margin-bottom: 5px;
+	overflow: visible;
+	position: relative;
+}
+
+div.box .title
+{
+  	border-bottom-width: 1px;
+  	border-top-width: 1px;
+  	padding: 3px;
+  	color: #143788;
+}
+
+div.box .content
+{
+  	padding: 5px;
+  	overflow: visible;
+}
+
+fieldset.container
+{
+    border: 0;
+}
+
+/*****************************
+    Tables
+*****************************/
+.table
+{
+    border-width: 1px;
+}
+
+.table th
+{
+    padding: 3px;
+}
+
+.table td
+{
+    padding: 4px;
+}
+
+/*****************************
+	Quick search
+*****************************/
+#searchContainer
+{
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    padding: 3px 1em;
+}
+
+.quickSearch .searchQuery
+{
+	width: 160px;
+}
+
+/*****************************
+	Category box
+*****************************/
+.categories .content
+{
+    padding: 5px 12px 12px 22px !important;
+  	border-bottom-width: 1px;
+}
+
+.categories .content a
+{
+    color: black;
+}
+
+.categories li
+{
+    margin-top: 5px;
+}
+
+.categories ul ul
+{
+    padding-left: 12px;
+}
+
+.current ul, .subSubCats
+{
+    padding-left: 0 !important;
+}
+
+.categories .current ul li
+{
+    padding-left: 20px;
+}
+
+.noSubCats .subCatContainer table
+{
+	margin: 0 auto;
+}
+
+/*****************************
+	Filters
+*****************************/
+.filterGroup ul
+{
+	text-indent: 22px;
+	font-size: 90%;
+	overflow-y: auto;
+	max-height: 400px;
+	padding-left: 3px;
+}
+
+.filterGroup ul li a
+{
+    color: #BB5500;
+}
+
+.filterGroup h4
+{
+	margin-top: 5px;
+}
+
+.filterGroup .showAll
+{
+	background-image: url(../../image/silk/gif/tag_yellow.gif);
+}
+
+.filterGroup.filterTypeCheckbox li div
+{
+	background-image:none;
+}
+.filterGroup.filterTypeCheckbox li div input.checkbox
+{
+	vertical-align: middle;
+	float: none;
+	margin-left: -1em;
+}
+
+.filterGroup.filterTypeCheckbox li div
+{
+	padding: 0;
+	margin-bottom: 1px;
+}
+
+.filterTop
+{
+	padding: 0.5em 0;
+}
+
+.filterTop select
+{
+	width: auto;
+	margin-right: 1em;
+}
+
+.topMenuFilterCaption
+{
+	white-space: nowrap;
+}
+
+.filterGroup ul li label
+{
+	display: inline;
+	vertical-align: middle;
+}
+
+/*****************************
+	Information menu
+*****************************/
+.informationMenu ul li
+{
+    margin-bottom: 5px;
+}
+
+/*****************************
+	Latest news block
+*****************************/
+.latestNewsSide .date
+{
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+/*****************************
+	Currency switch
+*****************************/
+#currency, #language
+{
+	margin: 3px 3px 0;
+}
+
+#currency a, #language a
+{
+	margin-left: 3px;
+}
+
+/*****************************
+	Breadcrumb
+*****************************/
+#breadCrumb
+{
+	padding: 5px;
+}
+
+#breadCrumb *
+{
+	display: inline;
+}
+
+#breadCrumb a,
+#breadCrumb li.last
+{
+	margin: 0 7px;
+}
+
+/*****************************
+	Home (index) page
+*****************************/
+.newsDate
+{
+    font-style: italic;
+}
+
+.newsArchive
+{
+    padding-top: 1em;
+}
+
+ul.news li.newsEntry
+{
+    padding: 0.5em 0;
+    border-bottom-width: 1px;
+}
+
+/*****************************
+	Sub-category list
+*****************************/
+.count
+{
+    color: #666;
+    white-space: nowrap;
+}
+
+.subCatName
+{
+    font-size: larger;
+}
+
+/* obsolete */ ztable.subCategories
+{
+    width: 49%;
+    float: left;
+}
+
+.subCategories
+{
+    display: table;
+    margin-top: 10px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.subCategoryRow
+{
+	display: table-row;
+}
+
+.subCategoryItem
+{
+	display: table-cell;
+	border-width: 1px;
+	border-style: dotted;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+.subCategoryItem.first
+{
+	border-left-width: 0;
+}
+
+.subCategoryItem.last
+{
+	border-right-width: 0;
+}
+
+.subCategoryRow.first td
+{
+	border-top-width: 0;
+}
+
+.subCategoryRow.last td
+{
+	border-bottom-width: 0;
+}
+
+.subCategories .subCatImage
+{
+	width: 85px;
+	padding: 5px;
+	padding-right: 10px;
+	display: table-cell;
+	vertical-align: middle;
+	*float: left;
+}
+
+.subCategories .details
+{
+    padding-left: 20px;
+    padding-right: 10px;
+    display: table-cell;
+    vertical-align: middle;
+	*margin-left: 85px;
+	*padding-top: 2em;
+	*padding-bottom: 1em;
+}
+
+.subCategories td.details .count
+{
+    font-weight: normal;
+}
+
+ul.subSubCats
+{
+    margin: 6px;
+    margin-top: 12px;
+}
+
+.modelSearchResults
+{
+	margin-bottom: 1em;
+}
+
+.allResults
+{
+	font-size: smaller;
+	margin-top: 0.5em;
+}
+
+/*****************************
+	Product list
+*****************************/
+.keywords
+{
+	font-style: italic;
+}
+
+.narrowByCat
+{
+	margin-bottom: 2em;
+}
+
+.allFilters li
+{
+	margin-bottom: 5px !important;
+}
+
+.allFilters legend
+{
+	color: black;
+    background: url(../../image/silk/gif/zoom.gif) 6px center no-repeat;
+    padding-left: 28px;
+    margin-left: 5px;
+}
+
+.allFilters .filterGroup
+{
+    width: 30%;
+}
+
+.foundCategories
+{
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+.page
+{
+    border: 1px solid #143788;
+    text-decoration: none;
+    margin: 0 2px;
+    padding: 2px 6px;
+
+}
+
+.currentPage
+{
+    background: #143788;
+    color: white;
+}
+
+.resultPages .next
+{
+    background-image: url(../../image/silk/gif/resultset_next.gif);
+}
+
+.resultPages .previous
+{
+    background-image: url(../../image/silk/gif/resultset_previous.gif);
+}
+
+.resultPages
+{
+    border-top-width: 1px;
+    padding-top: 10px;
+}
+
+.resultStats
+{
+    margin-bottom: 15px;
+    padding-bottom: 4px;
+    border-bottom-width: 1px;
+    font-size: 110%;
+    position: relative;
+}
+
+#productSort
+{
+	font-size: 12px;
+	width: 130px;
+}
+
+.categoryLayoutSwitch a
+{
+	width: 16px;
+	height: 16px;
+	padding: 2px;
+	border-width: 2px;
+	background-position: center center;
+	display: block;
+	float: left;
+	margin-left: 4px;
+}
+
+a.layoutSetList
+{
+	background-image: url(../../image/silk/gif/application_view_list.gif);
+}
+
+a.layoutSetGrid
+{
+	background-image: url(../../image/silk/gif/application_view_tile.gif);
+}
+
+a.layoutSetTable
+{
+	background-image: url(../../image/silk/gif/table.gif);
+}
+
+.categoryLayoutSwitch
+{
+	float: right;
+	margin-top: -7px;
+}
+
+.category-allProducts .categoryLayoutSwitch
+{
+	display: none;
+}
+
+table.productGrid
+{
+	width: 99%;
+	margin-bottom: 1em;
+	table-layout: fixed;
+}
+
+.productGrid td
+{
+	padding: 1em;
+	position: relative;
+	vertical-align: bottom;
+	overflow: hidden;
+	border-width: 1px;
+}
+
+.productGrid tr.first td
+{
+	border-top-width: 0;
+}
+
+.productGrid tr.last td
+{
+	border-bottom-width: 0;
+}
+
+.productGrid td.first
+{
+	border-left-width: 0;
+}
+
+.productGrid td.last
+{
+	border-right-width: 0;
+}
+
+ul.productList li
+{
+	margin-bottom: 30px;
+}
+
+ul.productList .title
+{
+	font-size: 120%;
+}
+
+.productGrid .title
+{
+	font-size: 120%;
+	margin: 1em 0;
+}
+
+ul.productList .spec
+{
+	margin-top: 2px;
+}
+
+ul.productList .descr
+{
+    margin-left: 120px;
+}
+
+ul.productList .shortDescr
+{
+	margin-top: 0.5em;
+}
+
+ul.productList .image
+{
+    width: 110px;
+}
+
+ul.productList .order
+{
+	margin-top: 9px;
+}
+
+a.addToCart
+{
+    background-image:url(../../image/silk/gif/cart_add.gif);
+    white-space: nowrap;
+}
+
+.listPrice
+{
+	text-decoration: line-through;
+	font-weight: normal;
+}
+
+ul.productList .pricingInfo
+{
+    white-space: nowrap;
+    width: 250px;
+    line-height: 1.2em;
+    margin-left: 1em;
+}
+
+.productGrid .pricingInfo
+{
+    line-height: 1.2em;
+}
+
+.productTable
+{
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.productTable td,
+.productTable th
+{
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.productTable td
+{
+	text-align: center;
+}
+
+.productTable td.text
+{
+	text-align: left;
+}
+
+.productTable a.direction_asc,
+.productTable a.direction_desc
+{
+	display: block;
+	padding-right: 20px;
+	background-position: right;
+}
+
+.productTable a.direction_asc
+{
+	background-image: url(../../image/silk/gif/sort_asc.gif);
+}
+
+.productTable a.direction_desc
+{
+	background-image: url(../../image/silk/gif/sort_desc.gif);
+}
+
+.shortDescr
+{
+	font-size: 90%;
+}
+
+.productSeparator
+{
+    border-bottom-width: 1px;
+    margin: 15px auto -7px 120px;
+}
+
+.listItemSeparator
+{
+	color: #ccc;
+}
+
+.productListMenu
+{
+	margin-bottom: 1em;
+}
+
+.compare
+{
+	padding-top: 0.5em;
+}
+
+.compare .checkbox
+{
+	float: none;
+}
+
+.compare label
+{
+	display: inline;
+}
+
+.compareData .priceRow td.price
+{
+	text-align: center;
+	font-size: larger;
+}
+
+.compareData div.image
+{
+	padding: 1em;
+}
+
+.compareData td, .compareData th
+{
+	padding: 3px;
+	border-width: 2px;
+}
+
+.compareBoxMenu
+{
+	padding-top: 0.5em;
+	font-weight: bold;
+	font-size: 0.85em;
+}
+
+a.progressIndicator
+{
+	padding: 0;
+	padding-left: 16px;
+	background-position: center left;
+}
+
+.delete:hover
+{
+	opacity: 1;
+}
+
+.delete
+{
+	opacity: 0.5;
+	background-image: url(../../image/silk/gif/cancel.gif);
+	padding: 8px;
+	margin-right: 4px;
+	vertical-align: middle;
+}
+
+/*****************************
+	Product page
+*****************************/
+.productIndex h1
+{
+	width: 600px;
+}
+
+.returnToCategory
+{
+    background-image: url(../../image/silk/gif/resultset_previous.gif);
+    padding-left: 18px;
+    margin-bottom: 12px;
+}
+
+.specSummary
+{
+    padding: 10px;
+    max-width: 300px;
+    margin-top: -40px;
+    z-index: 10;
+}
+
+#productSummaryContainer
+{
+	margin-top: 1em;
+}
+
+#mainInfo
+{
+    clear: right;
+    margin: 1em;
+}
+
+#productToCart input.number
+{
+	width: 3em;
+}
+
+#ratingSummary
+{
+	width: 250px;
+}
+
+#mainInfo td
+{
+	padding: 5px;
+	white-space: nowrap;
+}
+
+#mainInfo td.websiteUrl
+{
+    border-top: 1px dotted black;
+}
+
+.websiteUrl a
+{
+  	background-image: url(../../image/backend/icon/exLink.gif) !important;
+}
+
+.overallRating a
+{
+	font-weight: normal;
+}
+
+.ratingBreakdown
+{
+	color: #888;
+	clear: left;
+	margin-top: 0.5em;
+}
+
+.price
+{
+	color: #a52a2a;
+}
+
+.price.progressIndicator
+{
+	padding: 0 0 0 16px;
+	background-position: center left;
+}
+
+#mainInfo .price
+{
+	font-size: larger;
+}
+
+table.quantityPrice
+{
+	border-width: 1px;
+	margin: 1em auto;
+	clear: both;
+}
+
+.price.quantityPrice
+{
+	font-size: 1em !important;
+}
+
+.productOptions .productOption
+{
+	margin: 3px 0;
+}
+
+.productOptions .description
+{
+	font-size: 0.85em;
+	white-space: normal;
+	width: 250px;
+	margin: 0;
+}
+
+.radioOptions
+{
+	padding-left: 0.5em;
+	border-width: 1px;
+}
+
+.purchaseVariations
+{
+	padding: 0.5em;
+	display: block;
+}
+
+.purchaseVariations .cartLinks
+{
+	padding: 1em 0;
+}
+
+.purchaseVariations .productOption
+{
+	margin: 5px 0;
+}
+
+#productSpecification td
+{
+    padding: 5px 10px;
+}
+
+tr.specificationGroup
+{
+	font-size: larger;
+}
+
+tr.specificationGroup td.param
+{
+	border-right: 0 !important;
+}
+
+tr.specificationGroup td.value
+{
+	border-left: 0 !important;
+}
+
+ul.attributeList
+{
+    padding: 0;
+}
+
+ul.attributeList li
+{
+    background-image: url(../../image/silk/gif/tick.gif);
+}
+
+ul.attributeList.singleValue li
+{
+    background-image: none;
+    padding: 0;
+}
+
+#imageContainer
+{
+	width: 450px;
+}
+
+#outerImageContainer #imageContainer
+{
+	width: auto;
+	float: none;
+}
+
+#lightbox
+{
+	padding: 2px !important;
+}
+
+#keyboardMsg
+{
+	display: none;
+}
+
+#lightboxCaption
+{
+	font-size: 1.2em;
+}
+
+#mainImage
+{
+    margin: 20px;
+}
+
+#largeImage.multipleImages
+{
+	height: 350px;
+}
+
+#largeImage.missingImage
+{
+	height: auto;
+}
+
+#moreImages img, .compareData div.image img
+{
+	border: 1px solid black;
+	margin-right: 4px;
+	cursor: pointer;
+}
+
+#rateProduct
+{
+	margin-left: 10px;
+}
+
+#rateProduct table td
+{
+	padding: 4px;
+}
+
+#rateProduct table .errorText
+{
+	position: relative;
+	white-space: nowrap;
+	left: -85px;
+}
+
+.ratingPreview
+{
+	background-color: transparent !important;
+}
+
+.reviewTitle
+{
+	line-height: 1.5em;
+}
+
+.reviewText
+{
+	margin-top: 0;
+}
+
+div.review
+{
+	padding-top: 1em;
+	border-top-width: 1px;
+}
+
+div.review.first
+{
+	padding-top: 0;
+	border: 0;
+}
+
+div.review .ratingBreakdown
+{
+	margin: 0.5em;
+	padding: 1em;
+	border-width: 1px;
+}
+
+#bundle .productInfo
+{
+	width: 150px;
+}
+
+.bundleList, .bundleInfo
+{
+	padding-right: 0.5em;
+	margin-left: 1em;
+}
+
+.bundleList
+{
+	border-right: 1px;
+}
+
+.bundlePrice
+{
+	font-size: larger;
+}
+
+.tabberlive h2
+{
+	display: none;
+}
+
+.tabberlive .productSection
+{
+	padding: 1em 0;
+}
+
+/*****************************
+	Review page
+*****************************/
+.reviewIndex .pagingInfo
+{
+	float: none;
+	margin-top: 0;
+	position: absolute;
+	bottom: 5px;
+	right: 0;
+}
+
+/*****************************
+	Users
+*****************************/
+.forgottenPassword
+{
+    display: block;
+}
+
+/*****************************
+	Shopping cart
+*****************************/
+#cart, #wishList, #expressCheckoutMethods
+{
+	width: 700px;
+	margin: 0 auto;
+}
+
+#wishList table
+{
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+#wishList
+{
+    margin-bottom: 15px;
+}
+
+#cart td, #wishList td
+{
+	overflow: hidden;
+	padding: 3px;
+}
+
+#cart .productOptions
+{
+	margin: 0.5em 0;
+}
+
+.cartControl
+{
+	width: 120px;
+	overflow: hidden;
+	padding-left: 1em !important;
+}
+
+.cartQuant
+{
+	width: 80px;
+}
+
+.cartPrice
+{
+	width: 100px;
+	white-space: nowrap;
+}
+
+.subTotalCalc
+{
+	color: #777777;
+}
+
+.cartImage
+{
+	width: 60px;
+	padding: 7px !important;
+}
+
+.cartImage img
+{
+	border-width: 1px;
+}
+
+.cartQuant input.text
+{
+	width: 50px;
+}
+
+.continueShopping
+{
+    background-image: url(../../image/silk/gif/resultset_previous.gif);
+}
+
+.checkoutButtons
+{
+    width: 300px;
+    text-align: right;
+}
+
+#tosContainer input,
+#tosContainer label
+{
+	float: none;
+	display: inline;
+}
+
+.multiAddressCheckout
+{
+	clear: right;
+	display: block;
+	padding-top: 1em;
+}
+
+.proceedToCheckout
+{
+    background-image: url(../../image/silk/gif/cart_go.gif);
+	background-position: 97% center;
+    border-width: 1px;
+    padding: 5px;
+    padding-right: 27px;
+}
+
+select.multiAddress
+{
+	width: 100%;
+}
+
+#expressCheckoutMethods
+{
+    padding: 20px;
+}
+
+#expressCheckoutMethods img
+{
+	vertical-align: top;
+}
+
+#cartFields .container, #couponCodes .container
+{
+	padding: 0 1em 0.5em 0.5em;
+	border-width: 1px;
+	margin: 0.5em 0;
+}
+
+#couponCodes .container
+{
+	padding: 1em;
+}
+
+.text.coupon
+{
+	width: 160px;
+}
+
+#cartFields .wide, #cartFields textarea
+{
+	width: 100%;
+}
+
+#cartFields textarea
+{
+	height: 80px;
+}
+
+/*****************************
+	Checkout
+***************************/
+
+/* Progress bar */
+
+.checkoutHeader,
+.checkoutHeader h1
+{
+    line-height: 2em;
+}
+
+#checkoutProgress
+{
+    width: auto;
+    padding-top: 1em;
+	height: 3em;
+}
+
+#checkoutProgress a
+{
+    padding: 10px;
+    border-width: 2px;
+    margin-right: 20px;
+}
+
+/* completed steps */
+#checkoutProgress a.completed
+{
+    border-color: #70D66D;
+}
+
+/* current step */
+#checkoutProgress a.active
+{
+    border-color: #ADD8E6;
+}
+
+.progressOrder
+{
+    margin-right: 5px;
+}
+
+/* Select address */
+
+table.addressSelector
+{
+	width: 100%;
+}
+
+.selector.addAddress
+{
+	vertical-align: top;
+	padding-top: 5px;
+}
+
+.addressSelector a
+{
+    margin-left: 5px;
+}
+
+.addressSelector .address
+{
+    padding: 5px;
+}
+
+.addressSelector .address p
+{
+    margin: 3px;
+}
+
+#billingAddressColumn
+{
+	clear: left;
+	margin-right: 1%;
+}
+
+#billingAddressColumn,
+#shippingSelector
+{
+	width: 49%;
+}
+
+.addAddress .address,
+.addAddress .addressBlock
+{
+	width: 97%;
+}
+
+.addAddress .addressBlock label
+{
+	width: 120px;
+}
+
+.addAddress .addressBlock input,
+.addAddress .addressBlock select
+{
+	width: 97%;
+}
+
+/* Shipping method */
+
+#shippingSelect
+{
+    margin-top: 1.5em;
+}
+
+.shipment
+{
+    width: 70%;
+    border-width: 1px;
+}
+
+.userViewOrder .shipment
+{
+    width: 90%;
+}
+
+.shipment td
+{
+    width: 12%;
+}
+
+.shipment .productName
+{
+    width: 64%;
+}
+
+.shipment .subTotal, #cart .subTotal
+{
+	white-space: nowrap;
+}
+
+.subTotalCaption, .shipment td.tax
+{
+    text-align: right !important;
+}
+
+.shippingMethods
+{
+    padding-left: 30px;
+    padding-bottom: 20px;
+    clear: both;
+}
+
+#cartItems h2
+{
+	clear: left;
+}
+
+/* Payments */
+#ccForm
+{
+	width: 100%;
+}
+
+#ccCVV
+{
+    width: 4em;
+}
+
+#payTotal
+{
+	margin-top: 20px;
+}
+
+#payTotal div
+{
+	font-size: larger;
+	padding: 6px;
+	display: inline;
+	margin: 20px;
+	border: 2px solid #FFFC8C;
+}
+
+#payItems
+{
+	margin-top: 5px;
+}
+
+#expressComplete
+{
+    display: block;
+    padding-top: 15px;
+    margin-left: 22px;
+}
+
+.orderOverviewControls a
+{
+    margin-bottom: -25px;
+}
+
+.user-pay .orderOverviewControls, .user-pay .addressContainer a
+{
+	display: none;
+}
+
+.multiAddress .overviewShippingInfo td
+{
+	padding-bottom: 1em;
+}
+
+#overviewAddresses
+{
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+}
+
+.addressContainer
+{
+    width: 50%;
+}
+
+#otherMethods a
+{
+    margin-right: 2em;
+}
+
+.checkoutPay h2
+{
+    margin-bottom: 24px;
+}
+
+#cvvHelp
+{
+    width: 340px;
+    padding: 5px;
+}
+
+#testHandlerWarning
+{
+    font-size: 0.85em;
+    margin: 1em auto;
+    border: 1px solid yellow;
+    padding: 5px;
+    text-align: center;
+}
+
+#paymentError .errorMsg
+{
+    padding-top: 10px;
+}
+
+.checkout-pay .completeOverview
+{
+	width: 40%;
+	margin: 0 1%;
+	padding: 0 1%;
+	background-color: #F8F8F8;
+}
+
+.paymentMethods
+{
+	width: 53%;
+}
+
+tr.topLine td
+{
+	border-bottom-width: 0;
+}
+
+.completeOverview .shipment
+{
+	width: auto;
+}
+
+#miniCartContents
+{
+	padding-bottom: 0.5em;
+	font-size: 85%;
+}
+
+.miniCartCount,
+.miniCartTotalAmount
+{
+	font-weight: bold;
+}
+
+.miniCartTotal
+{
+	border-top-width: 1px;
+	text-align: center;
+	padding: 0.5em;
+}
+
+/***************************
+	User account
+***************************/
+.newCustomer
+{
+	width: 55%;
+}
+
+.returningCustomer
+{
+	width: 43%;
+}
+
+.returningCustomer input.text
+{
+	width: 10em;
+}
+
+.userLogin .failed
+{
+    margin: 0;
+}
+
+#userMenu li
+{
+    margin-bottom: 10px;
+    background-position: bottom left;
+}
+
+#userMenu li#homeMenu
+{
+    background-image: url(../../image/silk/gif/house.gif);
+}
+
+#userMenu li#orderMenu
+{
+    background-image: url(../../image/silk/gif/package.gif);
+}
+
+#userMenu li#addressMenu
+{
+    background-image: url(../../image/silk/gif/book_addresses.gif);
+}
+
+#userMenu li#personalMenu
+{
+    background-image: url(../../image/silk/gif/user.gif);
+}
+
+#userMenu li#emailMenu
+{
+    background-image: url(../../image/silk/gif/email_edit.gif);
+}
+
+#userMenu li#fileMenu
+{
+    background-image: url(../../image/silk/gif/disk.gif);
+}
+
+#userMenu li#passwordMenu
+{
+    background-image: url(../../image/silk/gif/key.gif);
+}
+
+#userMenu li#signOutMenu
+{
+    background-image: url(../../image/silk/gif/door_out.gif);
+}
+
+#userMenu li#signOutMenu, #userMenu li#personalMenu, #userMenu li#orderMenu
+{
+	border-top-width: 1px;
+    padding-top: 10px;
+}
+
+#userMenuContainer
+{
+    padding: 10px;
+    border-width: 1px;
+    margin-bottom: 30px;
+    width: 170px;
+}
+
+.quickLogin input.text
+{
+	width: 100%;
+}
+
+/***************************
+	User addresses
+***************************/
+div.address,
+div.addressBlock
+{
+    width: 230px;
+}
+
+div.addressBlock
+{
+    border-width: 1px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+div.addressControl
+{
+    width: 250px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+/***************************
+	Orders
+***************************/
+.orderDetails
+{
+    border-width: 1px;
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.orderMenu
+{
+    padding-left: 10px;
+}
+
+.orderDetails .orderMenu
+{
+    width: 200px;
+}
+
+.orderDetails .orderContent
+{
+    margin-left: 220px;
+}
+
+#content .orderMenu ul
+{
+    margin: 5px;
+    margin-left: 0;
+}
+
+.orderMenu li
+{
+    padding: 4px;
+    margin-left: 0;
+}
+
+.orderMenu .orderTotal
+{
+    padding-top: 10px;
+}
+
+div.orderStatus
+{
+    padding: 6px;
+}
+
+a.invoice
+{
+	background-image: url(../../image/silk/gif/printer.gif);
+}
+
+a.viewOrder
+{
+	background-image: url(../../image/silk/gif/page_white_text.gif);
+}
+
+a.reorder
+{
+	background-image: url(../../image/silk/gif/cart_put.gif);
+}
+
+a.messages
+{
+	background-image: url(../../image/silk/gif/email.gif);
+}
+
+.subItemList
+{
+	margin: 4px;
+}
+
+.shipmentAddress
+{
+	margin-bottom: 0.5em;
+}
+
+/***************************
+	File downloads
+***************************/
+ul.downloadFile li
+{
+    background-image: url(../../image/silk/gif/disk.gif);
+    margin-bottom: 4px;
+}
+
+ul.downloadFile li.fileGroup
+{
+    background-image: none;
+    margin-top: 7px;
+}
+
+/***************************
+	Order notes
+***************************/
+ul.notes
+{
+    margin-top: 15px;
+}
+
+ul.notes li
+{
+    margin-bottom: 10px;
+}
+
+.noteText
+{
+    border-width: 1px;
+    padding: 5px;
+    margin-top: 5px;
+    font-family: "Lucida Console", Monospace;
+}
+
+ul.notes li.responder_1 .noteText
+{
+    border: 1px solid #AA0000;
+}
+
+.noteAbout
+{
+    border-bottom-width: 1px;
+    padding-bottom: 5px;
+}
+
+#noteForm
+{
+    margin-top: 2em;
+    display: block;
+}
+
+/***************************
+	Invoices
+***************************/
+#invoiceHeader
+{
+    border-bottom: 1px solid black;
+    position: relative;
+    margin-top: 20px;
+}
+
+#invoiceLogo
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#invoice h1
+{
+    padding-top: 20px;
+}
+
+#invoiceContacts h2
+{
+    border: none;
+}
+
+#invoiceDate
+{
+    padding-bottom: 10px;
+}
+
+#invoicePaymentInfo td
+{
+    padding: 5px;
+    width: 300px;
+}
+
+.basePrice
+{
+    display: none;
+}
+
+.discount .basePrice
+{
+	text-decoration: line-through;
+	display: inline;
+	margin-right: 4px;
+}
+
+#invoicePaymentInfo td.amount
+{
+    width: auto;
+}
+
+#invoicePaymentInfo .beforeTaxSubtotal td.amount,
+#invoicePaymentInfo .amountPaid td,
+#invoicePaymentInfo .grandTotal td.amount
+{
+    border-top: 1px solid black;
+}
+
+#invoicePaymentInfo .grandTotal td.amount
+{
+    padding-bottom: 10px;
+}
+
+.itemOptions
+{
+	padding: 0.5em;
+	font-size: 0.85em;
+	color: #777;
+}
+
+.itemOptions .optionPrice
+{
+	color: #444;
+}
+
+/***************************
+	Manufacturers
+***************************/
+.manufacturerColumn
+{
+	width: 47%;
+	margin-left: 2.5%;
+}
+
+.manufacturerImage
+{
+	margin: 1em;
+	margin-top: 0;
+	border-width: 1px;
+}
+
+.manufacturerAttributes
+{
+	margin-left: 1em;
+}
+
+/*************************
+	Contact form
+*************************/
+#contactForm textarea
+{
+	width: 500px;
+	height: 200px;
+	min-width: 500px;
+}
+
+/*************************
+	Static pages
+*************************/
+.staticSubpages
+{
+	margin-bottom: 1em;
+}
+
+/***************************
+	Customization
+***************************/
+span.templateLocator
+{
+	display: block;
+}
+
+span.templateLocator.activeTpl
+{
+	border: 2px dotted red;
+	position: relative;
+	z-index: 2;
+	padding: 2px;
+}
+
+span.templateLocator span.templateName
+{
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 15px;
+	padding: 3px;
+	z-index: 100;
+	padding-left: 25px;
+	background-image: url(../../image/silk/gif/layout_edit.gif);
+	background-position: 4px center;
+}
+
+span.templateLocator.activeTpl:hover > span.templateName:first-child
+{
+	display: inline;
+}
+
+/***************************
+	Form styling
+***************************/
+.confirmationMessage, .errorMessage, .infoMessage
+{
+	border: 1px solid #0c0;
+	background-color: #efe;
+	padding: 7px;
+	padding-left: 30px;
+	background-image: url(../../image/silk/gif/tick.gif);
+	background-position: 5px center;
+	margin: 0.5em;
+}
+
+.errorMessage
+{
+	border: 1px solid #c00;
+	background-color: #fee;
+	background-image: url(../../image/silk/gif/cancel.gif);
+}
+
+.infoMessage
+{
+	border: 1px solid #FFF000;
+	background-color: #FFFCCC;
+	background-image: url(../../image/silk/gif/information.gif);
+}
+
+form
+{
+     display: inline;
+}
+
+form p
+{
+    position: relative;
+    clear: both;
+}
+
+fieldset
+{
+    margin: 1em 0;
+    padding: 1em;
+    margin: auto 0;
+    margin-bottom: 10px;
+    border-width: 1px;
+}
+
+legend
+{
+	font-size: 18px;
+	color: #30A0F9;
+	padding: 10px 0;
+	top: -22px;
+}
+
+label
+{
+	display: block;
+    width: 156px;
+    cursor: pointer;
+    padding-right: 6px;
+    padding-bottom: 1px;
+}
+
+.required label span.label
+{
+	background: url(../../image/required.gif) right center no-repeat;
+	padding-right: 9px;
+}
+
+p.radio, p.checkbox
+{
+	padding-left: 11em;
+}
+
+p.radio label, p.checkbox label
+{
+    white-space: nowrap;
+}
+
+label.checkbox, label.radio
+{
+  	line-height: 1em;
+}
+
+input.text, select, file, form.other
+{
+    width: 15em;
+    font-size: 16px;
+    padding: 2px;
+}
+
+label.cancel
+{
+    display: inline;
+}
+
+select
+{
+	padding: 0;
+}
+
+textarea
+{
+    padding: 2px;
+    width: 40em;
+    min-width: 40em;
+    height: 10em;
+    font-size: 14px;
+    color: #333;
+    max-width: 100%;
+}
+
+input.radio, input.checkbox, input.submit, input.button, input.reset
+{
+    width: auto;
+}
+
+input.radio, input.checkbox
+{
+    margin: 0 0.5em 0 0;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+input:focus, textarea:focus, select:focus
+{
+    background: #ffc;
+}
+
+fieldset.error, div.error, fieldset.container
+{
+	padding: 0;
+	margin: 0;
+	position: static;
+	border: 0;
+	background: none;
+}
+
+.errorText
+{
+	background-image: url(../../image/silk/gif/bullet_error.gif);
+	margin-bottom: 4px;
+}
+
+.hasError
+{
+	background-color: #FFFAFA;
+	border-color: red !important;
+}
+
+.highlight
+{
+	border: 1px solid yellow;
+	padding: 1em;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.visible
+{
+	display: block;
+}
+
+.progressIndicator
+{
+	background-image: url(../../image/indicator.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	clear: none;
+}
+
+span.progressIndicator
+{
+	padding: 8px;
+}
+
+input.progressIndicator.text
+{
+	background-position: right center;
+}
+
+.progressIndicator.checkbox
+{
+	float: left;
+	margin-right: 5px;
+}
+
+label.text
+{
+    width: auto;
+}
+
+input.wide
+{
+  	width: 35em;
+}
+
+input.money, input.number
+{
+  	width: 5em;
+}
+
+input.date
+{
+  	width: 7em;
+}
+
+/***************************
+	Calendar
+***************************/
+img.calendar_button
+{
+    margin-left: 0.5em;
+    cursor: pointer;
+}
+
+/***************************
+	EAV
+***************************/
+.eavAttributes .attrValue
+{
+	margin-left: 1em;
+}
+
+.eavContainer .wide
+{
+	width: 15em;
+}
+
+fieldset.eavGroup
+{
+	clear: left;
+}
+
+/*************************
+	Special offers (sale items)
+*************************/
+.compactProductList ul
+{
+	margin-top: 0.5em;
+}
+
+.compactProductList .image
+{
+	width: 45px;
+}
+
+.compactProductList .productInfo
+{
+	width: 100px;
+	font-size: 0.85em;
+	overflow: hidden;
+}
+
+.compactProductList .pricingInfo .price
+{
+	width: 70px;
+	font-size: 1em;
+}
+
+.compactProductList li
+{
+	margin-bottom: 7px;
+}
+
+.compactProductList div
+{
+	position: relative;
+}
+
+/*************************
+	AJAX
+*************************/
+#ajaxMessage
+{
+	position: fixed;
+	top: 1em;
+	right: 1em;
+	z-index: 1000;
+}
+
+#ajaxMessage.success
+{
+
+}
+
+/*************************
+	Top root category menu
+*************************/
+.rootCategories
+{
+	width: 100%;
+}
+
+.rootCategories li,
+.rootCategories .li
+{
+	float: left;
+	line-height: 25px;
+	position: relative;
+}
+
+.rootCategories .current
+{
+	font-weight: bold;
+}
+
+.rootCategories .current li,
+.rootCategories .current .li
+{
+	font-weight: normal;
+}
+
+.rootCategories a
+{
+	color: black;
+	text-decoration: none;
+	padding: 0 1em;
+	float: left;
+	clear: left;
+}
+
+.rootCategories .wrapper a
+{
+	padding: 0;
+	padding-left: 1em;
+}
+
+.rootCategories li li
+.rootCategories .li .li
+{
+	float: none;
+}
+
+.rootCategories .wrapper
+{
+	display: none;
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	top: 100%;
+}
+
+.rootCategories li:hover .wrapper,
+.rootCategories .li:hover .wrapper,
+.rootCategories .hover .wrapper
+{
+	display: block !important;
+}
+
+.rootCategories ul,
+.rootCategories .ul
+{
+	display: table;
+}
+
+.rootCategories ul li,
+.rootCategories .ul .li
+{
+	float: none;
+	background: none;
+	border: 0;
+	white-space: nowrap;
+}
+
+.rootCategories ul a,
+.rootCategories .ul a
+{
+	display: block;
+	padding-right: 8px !important;
+}
+
+.rootCategories span.block
+{
+	display: block;
+}
+
+.rootCategories .ul .li:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.rootCategories .ul .li {
+	display: inline-block;
+}
+
+html[xmlns] .rootCategories .ul .li {
+	display: block;
+}
+
+* html .rootCategories .ul .li {
+	height: 1%;
+}
+
+
+/*************************
+	Dynamic menu
+*************************/
+.dynamicMenu li
+{
+	border-collapse: collapse;
+}
+
+.dynamicMenu .content
+{
+	padding: 0 !important;
+}
+
+.dynamicMenu, .dynamicMenu ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	z-index: 10;
+	position: relative;
+}
+
+.dynamicMenu li { /* all list items */
+	position : relative;
+	margin: 0;
+	border-top-width: 1px;
+}
+
+.dynamicMenu li ul { /* second-level lists */
+	position : absolute;
+	left: -999em;
+	margin-left : 188px;
+	margin-top : 0;
+	top: -1px;
+	z-index: 10000;
+}
+
+.dynamicMenu ul ul
+{
+	border-width: 1px;
+	border-top: 0;
+	padding-left: 0;
+}
+
+.dynamicMenu li:hover > a
+.dynamicMenu li.sfhover > a
+{
+	background-color: lightyellow;
+}
+
+.dynamicMenu li ul ul { /* third-and-above-level lists */
+	left: -999em;
+}
+
+.dynamicMenu li a
+{
+	width: 174px;
+	display : block;
+	text-decoration : none;
+	padding-right: 0;
+	margin-left: 0;
+	padding: 4px;
+	padding-left: 12px;
+}
+
+.dynamicMenu ul li.noSubs a
+{
+	background-image: none !important
+}
+
+/*
+.dynamicMenu li.current a
+{
+	background-color: transparent;
+}
+
+.dynamicMenu li.current ul
+{
+	display: block;
+	margin-top: 0pt;
+	position: static;
+	border: 0;
+}
+
+.dynamicMenu li.current ul li
+{
+	margin-bottom: 0;
+	margin-left: 5px;
+	padding-left: 12px;
+	border: 0;
+}
+
+.dynamicMenu li.current ul li a
+{
+	padding: 3px;
+}
+*/
+
+.dynamicMenu li:hover ul ul, .dynamicMenu li:hover ul ul ul, .dynamicMenu li.sfhover ul ul, .dynamicMenu li.sfhover ul ul ul {
+	left: -999em;
+}
+
+.dynamicMenu li:hover ul, .dynamicMenu li li:hover ul, .dynamicMenu li li li:hover ul, .dynamicMenu li.sfhover ul, .dynamicMenu li li.sfhover ul, .dynamicMenu li li li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+}
+
+/*************************
+	One page checkout
+*************************/
+.one-page-checkout-login-field
+{
+	float: left;
+	margin-right: 1em;
+}
+
+.one-page-checkout-login-field input.text
+{
+	width: 12em;
+}
+
+.one-page-checkout-login-field label
+{
+	display: block;
+	float: none;
+	width: auto;
+}
+
+#checkout-login,
+#checkout-shipping,
+#checkout-billing,
+#checkout-payment
+{
+	float: left;
+	width: 51%;
+}
+
+#checkout-right
+{
+	float: right;
+	width: 46%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+#checkout-cart #cart
+{
+	width: 100%;
+}
+
+#checkout-cart .cartControl *,
+#checkout-cart .categoryName
+{
+	display: none;
+}
+
+#checkout-cart .cartControl
+{
+	width: 0px;
+	padding: 0;
+}
+
+#checkout-overview .addressContainer a
+{
+	display: none;
+}
+
+#checkout-payment.singleMethod #checkout-select-payment-method
+{
+	display: none;
+}
+
+.onePageCheckout-index h2 .step
+{
+	border-width: 1px;
+	padding: 5px;
+	margin-right: 7px;
+	background-color: green;
+	color: white;
+}
+
+.onePageCheckout-index .step-incomplete h2 .step
+{
+	background-color: red;
+}
+
+.onePageCheckout-index .step-disabled form,
+.onePageCheckout-index .step-disabled .form,
+.onePageCheckout-index .notAvailable
+{
+	display: none;
+}
+
+.onePageCheckout-index .downloadable #checkout-shipping-method
+{
+	display: none;
+}
+
+.onePageCheckout-index .step-disabled .notAvailable
+{
+	display: block;
+}
+
+.checkout-otherMethods td
+{
+	padding: 0.5em 0;
+}
+
+.onePageCheckout-index #checkout-payment form .submit,
+.onePageCheckout-index #ccForm .submit
+{
+	display: none !important;
+}
+
+#checkout-return-to-overview
+{
+	float: right;
+	margin-bottom: 5px;
+}
+
+.grandTotal
+{
+	font-size: larger;
+}
+
+.grandTotal .orderTotal
+{
+	font-weight: bold;
+}
+
+#checkout-place-order
+{
+	border-top-width: 1px;
+	margin: 1em 0;
+	padding-top: 1em;
+}
+
+.onePageCheckout-index .showCart #checkout-overview h2,
+.onePageCheckout-index .showCart .orderOverviewControls,
+.onePageCheckout-index .showCart #checkout-return-to-overview,
+.onePageCheckout-index .showCart #payItems
+{
+	display: none;
+}
+
+
+#upsellProducts .checkProduct
+{
+	float:left;
+	width:20px
+}
+
+#upsellProducts .image
+{
+	width:45px;
+}
+
+#upsellProducts .pricingInfo
+{
+	position:absolute;
+	margin-left:65px; /* 20px + 45px */
+}
+#upsellProducts .pricingInfo .price
+{
+	font-size:small;
+}
+
+/******* tabs *********/
+h2 small
+{
+	display: none;
+}
+
+/*--------------------------------------------------
+  REQUIRED to hide the non-active tab content.
+  But do not hide them in the print stylesheet!
+  --------------------------------------------------*/
+.tabberlive .tabbertabhide {
+ display:none;
+}
+
+/*--------------------------------------------------
+  .tabber = before the tabber interface is set up
+  .tabberlive = after the tabber interface is set up
+  --------------------------------------------------*/
+.tabber {
+}
+.tabberlive {
+ margin-top:1em;
+}
+
+/*--------------------------------------------------
+  ul.tabbernav = the tab navigation list
+  li.tabberactive = the active tab
+  --------------------------------------------------*/
+ul.tabbernav
+{
+ margin:0;
+ padding: 3px 0;
+ border-bottom: 1px solid #778;
+ font: bold 12px Verdana, sans-serif;
+}
+
+ul.tabbernav li
+{
+ list-style: none;
+ margin: 0;
+ display: inline;
+}
+
+ul.tabbernav li a
+{
+ padding: 3px 0.5em;
+ margin-left: 3px;
+ border: 1px solid #778;
+ border-bottom: none;
+ background: #DDE;
+ text-decoration: none;
+}
+
+ul.tabbernav li a:link { color: #448; }
+ul.tabbernav li a:visited { color: #667; }
+
+ul.tabbernav li a:hover
+{
+ color: #000;
+ background: #AAE;
+ border-color: #227;
+}
+
+ul.tabbernav li.tabberactive a
+{
+ background-color: #fff;
+ border-bottom: 1px solid #fff;
+}
+
+/*--------------------------------------------------
+  .tabbertab = the tab content
+  Add style only after the tabber interface is set up (.tabberlive)
+  --------------------------------------------------*/
+.tabberlive .tabbertab {
+ padding:5px;
+ border:1px solid #aaa;
+ border-top:0;
+
+ /* If you don't want the tab size changing whenever a tab is changed
+    you can set a fixed height */
+
+ /* height:200px; */
+
+ /* If you set a fix height set overflow to auto and you will get a
+    scrollbar when necessary */
+
+ /* overflow:auto; */
+}
+
+/* If desired, hide the heading since a heading is provided by the tab */
+.tabberlive .tabbertab h2 {
+ display:none;
+}
+.tabberlive .tabbertab h3 {
+ display:none;
+}
+
+/* Example of using an ID to set different styles for the tabs on the page */
+.tabberlive#tab1 {
+}
+.tabberlive#tab2 {
+}
+.tabberlive#tab2 .tabbertab {
+ height:200px;
+ overflow:auto;
+}
+
+
+
+/***************************
+	Footer panel
+***************************/
+
+#footpanel
+{
+	position: fixed;
+	bottom: 0; left: 0;
+	z-index: 1000; /*--Keeps the panel on top of all other elements--*/
+	background: #e3e2e2;
+	border: 1px solid #c3c3c3;
+	border-bottom: none;
+	width: 50%;
+	margin: 0 25%;
+	-moz-border-radius: 5px 5px 0 0;
+	display: none;
+}
+
+#mainpanel
+{
+	padding: 0; margin: 0;
+	float: left;
+	width: 100%;
+	list-style: none;
+	border-top: 1px solid #fff; /*--Gives the bevel feel on the panel--*/
+	font-size: 1.1em;
+	-moz-border-radius: 5px 5px 0 0;
+}
+
+#mainpanel > li > a
+{
+	padding: 5px;
+	float: left;
+	text-indent: -9999px; /*--For text replacement - Shove text off of the page--*/
+	height: 16px; width: 16px;
+	text-decoration: none;
+	color: #333;
+	position: relative;
+}
+
+#mainpanel > li > a:hover
+{
+	background-color: #fff !important;
+}
+
+html #footpanel .subpanel ul li a.active
+{ /*--Active state when sub-panel is open--*/
+	background-color: #fff;
+	height: 17px;
+	margin-top: -2px; /*--Push it up 2px to attach the active button to sub-panel--*/
+	border: 1px solid #555;
+	border-top: none;
+	z-index: 200; /*--Keeps the active link on top of the sub-panel--*/
+	position: relative;
+}
+
+#footpanel .subpanel ul li div a { /*--Reset link style for sub-panel links--*/
+	text-indent: 0;
+	width: auto;
+	height: auto;
+	padding: 0;
+	float: none;
+	color: #00629a;
+	position: static;
+}
+
+#footpanel .subpanel ul li div a:hover
+{
+	text-decoration: underline;
+}
+
+#footpanel .subpanel
+{
+	position: absolute;
+	left: 0; bottom: 27px;
+	display: none;	/*--Hide by default--*/
+	width: 160px;
+	border: 1px solid #555;
+	background: #fff;
+	overflow: hidden;
+	z-index:60000;
+}
+
+#footpanel .subpanel h3 {
+	background: #4C5D97;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#footpanel .subpanel h3 span { /*--Right aligned "-" icon--*/
+	font-size: 1.5em;
+	float: right;
+	line-height: 0.6em;
+	font-weight: normal;
+}
+
+#footpanel .subpanel ul{
+	padding: 0; margin: 0;
+	background: #fff;
+	width: 100%;
+	overflow: auto;
+	padding-bottom: 2px;
+}
+
+#footpanel .subpanel li{
+	float: none; /*--Reset float--*/
+	display: block;
+	padding: 0; margin: 0;
+	overflow: hidden;
+	clear: both;
+	background: #fff;
+	position: static;  /*--Reset relative positioning--*/
+}

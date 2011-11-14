@@ -1,0 +1,185 @@
+.tabFields .activeList_icons
+{
+    vertical-align: baseline;
+}
+
+.addSpecField
+{
+    background-image: url(../../image/silk/tag_blue_add.png);
+}
+
+.addSpecFieldGroup
+{
+    background-image: url(../../image/silk/table_add.png);
+}
+
+.specField legend, .specField_step_values, .specField_language_translation, .specField_group_language_translation {
+    display: none;
+}
+
+.specField_step_lev1 {
+    background: white;
+}
+
+.specField .specField_step_translations_language legend {
+    cursor: pointer;
+    cursor: hand;
+    display: block;
+}
+
+.specField_form_type_static
+{
+    font-size: 110%;
+}
+.specField fieldset {
+    margin-right: 1em;
+}
+
+.specField_group_controls, .specField_group_translations {
+    background: #fff;
+}
+
+.specField_group_title {
+    font-size: 300%;
+    color: grey;
+    font-weight: bold;
+}
+
+.specFieldGroup_translations {
+    display: none;
+}
+
+.specField_title {
+    font-size: 200%;
+}
+
+.specField_group_title input {
+    width: 200px;
+    display: none;
+}
+
+.specField_new_group .specField_group_title input {
+    display: block;
+}
+
+.specFieldList .activeList_container {
+    padding-left: 80px;
+}
+
+.specFieldList li, .specFieldListGroup li {
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.specFieldList li li {
+    width: 100%;
+}
+
+.specFieldList {
+  	padding-bottom: 1em;
+}
+
+.specField_form_values_group div input.specField_valueName, input.specField_update {
+    width: 30em;
+}
+
+.specField_language_link {
+    display: inline;
+    padding: 0 5px;
+}
+
+.specField_change_state {
+    padding: 0 5px;
+}
+
+.specField .specField_step_translations_language {
+    background: #ddd;
+}
+
+.specField_form_values_value .specField_form_values_default_checkbox {
+    width: auto;
+}
+
+.specField_mergeValuesLink, .specField_mergeValuesCancelLink
+{
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.specField .specField_mergeCheckbox
+{
+   float: none;
+}
+
+.specField_controls {
+    padding-left: 2em;
+}
+
+.specField_valueMergedLooser
+{
+    background-color: #FF8990 ! important;
+}
+
+.specField_valueMergedWinner
+{
+    background-color: #BBE5C1 ! important;
+}
+
+.specField_save {
+    margin: 0;
+}
+
+.specField_add_field {
+    white-space: nowrap;
+    margin-left: 56px;
+    color: red;
+}
+
+.specField_values_controls
+{
+    margin-bottom: 2em ! important;
+}
+
+.specField_values {
+    width: auto !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+}
+
+h2.specField_values_title {
+   width: 7em ! important;
+}
+
+.specFieldListGroup > li {
+	border: 2px solid #ccc;
+}
+
+.specField_step_translations, .specField_step_values_translations {
+    margin-top: 20px;
+}
+
+/* START Values active list */
+fieldset.specField_step_values  .activeList_icons {
+    width: 50px;
+}
+
+fieldset.group h2 {
+    font-size: 1em;
+    font-weight: normal;
+}
+/* END Values active list */
+
+.specField ul {
+    list-style: none;
+}
+
+.specField_step_translations_language_active {
+    background: yellow;
+    padding: 5px;
+}
+
+/* IE */
+.specField_step_translations_language {
+    position: relative;
+}

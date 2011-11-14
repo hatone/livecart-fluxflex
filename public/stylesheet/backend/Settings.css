@@ -1,0 +1,169 @@
+h1
+{
+	margin-bottom: 6px;
+}
+
+#settingsContent label.setting
+{
+	display: block;
+	float: auto;
+	float: none;
+	margin-bottom: 0px;
+	width: auto;
+	background-repeat: no-repeat;
+}
+
+#settingsContent select
+{
+    width: auto;
+}
+
+p.checkbox
+{
+	padding-left: 0px;
+}
+
+div.multi
+{
+    border: 1px solid gray;
+    margin: 5px;
+    background: #EEE;
+}
+
+#settingsBrowser
+{
+	padding-left: 0px;
+}
+
+#settingsBrowser, #settingsBrowser .containerTableStyle
+{
+    height: 350px;
+}
+
+#settingsBrowser .containerTableStyle
+{
+	padding-left: 5px;
+}
+
+.setting
+{
+    position: relative;
+}
+
+.multi
+{
+    padding: 10px;
+}
+
+.siteMapSubmission li
+{
+	background: url(../../image/silk/tick.png) no-repeat center left;
+	padding-left: 22px;
+	list-style-type: none;
+}
+
+.siteMapSubmission li.submitFail
+{
+	background-image: url(../../image/silk/cancel.png);
+}
+
+.imageSettings fieldset.settings fieldset.settings
+{
+	float: left;
+	width: 22.5%;
+	margin-right: 1%;
+	padding: 0.5%;
+}
+
+.imageSettings fieldset.settings fieldset.settings legend
+{
+	font-size: 0.85em;
+	font-weight: bold;
+	white-space: normal;
+}
+
+.imageSettings fieldset.settings legend div
+{
+	display: inline;
+	margin-left: 1em;
+	top: -3px;
+	position: relative;
+}
+
+.imageSettings fieldset.settings legend a
+{
+	color: red;
+	font-size: 13px;
+}
+
+#upload
+{
+	display: none;
+}
+
+.settingImage
+{
+	display: block;
+}
+
+#handler_SOFT_NAME
+{
+	margin-bottom: 0.5em;
+}
+
+.sectionHelp
+{
+	font-size: smaller;
+	background-color: lightyellow;
+	padding: 1em;
+	margin: 1em 0;
+}
+
+.sectionHelp ul,
+.sectionHelp ol
+{
+	margin: 1em;
+}
+
+#SettingsSearchResultOuterContainer
+{
+	left:-5px;
+	margin-top:-3px;
+	right:auto;
+	top:auto;
+	width:253px;
+}
+
+#SettingsSearchQuery
+{
+	font-size: 14px;
+}
+
+#SettingsSearchContainer h3
+{
+	display: none;
+}
+
+label.newRepo
+{
+	font-weight: bold;
+}
+
+label.repoUp
+{
+	background-image: url(../../image/silk/tick.png);
+	padding-left: 20px;
+}
+
+label.repoDown
+{
+	background-image: url(../../image/silk/cancel.png);
+	padding-left: 20px;
+}
+
+.repoDescription
+{
+	font-size: 0.85em;
+	margin-bottom: 0.5em;
+	margin-top: -0.2em;
+}

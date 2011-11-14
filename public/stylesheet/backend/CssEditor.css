@@ -1,0 +1,6 @@
+textarea.code,
+.templateContent textarea.code
+{
+	height: 500px;
+	width: 900px;
+}

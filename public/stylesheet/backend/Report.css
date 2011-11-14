@@ -1,0 +1,93 @@
+#menuSales a
+{
+	background-image: url(../../image/silk/money_dollar.png);
+}
+
+#menuBest a
+{
+	background-image: url(../../image/silk/medal_gold_1.png);
+}
+
+#menuCarts a
+{
+	background-image: url(../../image/silk/cart.png);
+}
+
+#menuSearch a
+{
+	background-image: url(../../image/silk/magnifier.png);
+}
+
+#menuCustomers a
+{
+	background-image: url(../../image/silk/user.png);
+}
+
+#menuPages a
+{
+	background-image: url(../../image/silk/page_white_text.png);
+}
+
+#reportTypeSelector li.active
+{
+	background-position: 0 -32px;
+}
+
+#reportDateRange
+{
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+
+#reportIndicator
+{
+	margin-bottom: 10px;
+	padding: 5px 0;
+	background-color: lightyellow;
+	position: absolute;
+}
+
+.chartMenu
+{
+	padding: 10px 0;
+	line-height: 1.5em;
+}
+
+.chartMenu a.active
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.chartMenu select.moreTypes
+{
+	width: auto;
+}
+
+.typeSelector
+{
+	float: left;
+}
+
+.intervalSelector
+{
+	float: right;
+}
+
+.intervalSelector select
+{
+	margin: 0;
+	width: auto;
+}
+
+table.report td, table.report th
+{
+	padding: 4px;
+	border-bottom: 1px solid #ddd;
+}
+
+table.report td.cnt
+{
+	text-align: center;
+}

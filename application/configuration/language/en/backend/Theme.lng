@@ -1,0 +1,179 @@
+_themes=Themes
+_settings=Settings
+_colors=Colors & Style
+_files=Files
+_css=CSS Stylesheet
+
+_add_new=Add new theme
+_remove=Delete selected theme
+_import_theme=Import theme
+_export_theme=Export selected theme
+_copy_theme=Copy selected theme
+
+_parent_themes=Parent Theme(s)
+_parent_theme_x=Parent theme [_1]
+_theme_name=Theme name
+_err_theme_name_empty=Please enter the theme name
+_err_theme_exists=This theme already exists
+_theme_created=Theme created successfully
+_theme_saved=The theme was saved successfully
+_colors_not_editable=Colors & style are not editable for this theme yet
+
+_confirm_theme_del=Really delete the selected theme?
+_err_cannot_delete_core_theme=This is a core theme which cannot be deleted
+_theme_deleted=Theme [_1] has been deleted
+_colors_saved=Theme style has been updated successfully
+
+_repeat=Repeat image
+no-repeat=None
+repeat=Horizontally and vertically
+repeat-x=Horizontally
+repeat-y=Vertically
+
+_position=Background position
+
+COLOR_SCHEME=Color scheme
+BACKGROUND_COLOR_1=Background color 1
+BACKGROUND_COLOR_2=Background color 2
+HEADING_COLOR=Table heading color
+BACKGROUND=Page background
+BG_IMAGE=Background image
+BG_COLOR=Page background color
+BORDER_COLOR=Border color
+H1_COLOR=Heading 1 color
+H2_COLOR=Heading 2 color
+PRICE_COLOR=Price color
+COUNTER_COLOR=Counter (product, filter, etc.) color
+
+LAYOUT=Page layout
+CONTAINER_WIDTH=Page container width
+CONTAINER_BG_IMAGE=Container background image
+CONTAINER_BG_COLOR=Container background color
+
+TEXT=Text
+TEXT_COLOR=Text color
+LINK_COLOR=Link color
+LINK_HOVER_COLOR=Link hover color
+LINK_STYLE=Link decoration
+LINK_HOVER_STYLE=Link hover decoration
+TEXT_FONT=Font face
+
+H1=Heading 1
+H1_SIZE=Font size
+H1_FONT=Font face
+H1_TOP_BORDER=Top border
+H1_BOTTOM_BORDER=Bottom border
+H1_BG_IMAGE=Background image
+H1_BG_COLOR=Background color
+
+H2=Heading 2
+H2_SIZE=Font size
+H2_FONT=Font face
+H2_TOP_BORDER=Top border
+H2_BOTTOM_BORDER=Bottom border
+H2_BG_IMAGE=Background image
+H2_BG_COLOR=Background color
+
+INPUT=Input fields
+INPUT_BORDER=Field border
+INPUT_BG_IMAGE=Background image
+INPUT_BG_COLOR=Background color
+
+BUTTONS=Buttons
+BUTTON_BORDER=Button border
+BUTTON_BG_IMAGE=Background image
+BUTTON_BG_COLOR=Background color
+BUTTON_INDENT=Caption indent (spacing from side)
+
+CONTENT=Content area
+CONTENT_BG_IMAGE=Content background image
+CONTENT_BG_COLOR=Content background color
+
+HEADER=Header
+HEADER_IMAGE=Background image
+HEADER_COLOR=Background color
+HEADER_TEXT_COLOR=Text color
+HEADER_HEIGHT=Height
+HEADER_LINKCOLOR=Header link color
+
+FOOTER=Footer
+FOOTER_IMAGE=Background image
+FOOTER_COLOR=Background color
+FOOTER_TEXT_COLOR=Text color
+FOOTER_HEIGHT=Height
+FOOTER_LINKCOLOR=Footer link color
+
+BOXES=Menu boxes
+BOX_BG_IMAGE=Box content background image
+BOX_BG_COLOR=Box content background color
+BOX_BORDER=Box outer border
+BOX_TITLE_COLOR=Box title color
+BOX_TITLE_IMAGE=Box title background image
+BOX_TITLE_BGCOLOR=Box title background color
+BOX_TITLE_BORDER=Box title bottom border
+
+TOP_MENU=Top Category Menu
+TOP_MENU_COLOR=Text color
+TOP_MENU_HOVER-COLOR=Hover text color
+TOP_MENU_BGCOLOR=Background color
+TOP_MENU_BGIMAGE=Background image
+TOP_MENU_ACTIVE_COLOR=Active item color
+TOP_MENU_ACTIVE_BGCOLOR=Active item background color
+TOP_MENU_ACTIVE_BGIMAGE=Active item background image
+
+ADDTOCART="Add to cart" button
+CARTBUTTON_BG_IMAGE=Button background image
+CARTBUTTON_BG_COLOR=Button background color
+CARTBUTTON_HIDE_TEXT=Hide button caption and browser formatting
+CARTBUTTON_WIDTH=Button width
+CARTBUTTON_HEIGHT=Button height
+CARTBUTTON_INDENT=Caption indent (spacing from side)
+
+BREADCRUMB=Breadcrumb navigation
+BC_HIDE=Hide breadcrumb
+BC_CAPTION_HIDE=Hide breadcrumb caption
+BC_CAPTION_COLOR=Caption color
+BC_BG_IMAGE=Background image
+BC_BG_COLOR=Background color
+BC_INDENT=Text indent
+BC_SEPARATOR_BG=Use image as item separator
+BC_LINK_COLOR=Link color
+BC_LINK_DECORATION=Link decoration
+
+FOOTER_HIDE_TRADEMARK=Hide trademark notice
+FOOTER_HIDE_POWEREDBY=Hide "powered by" notice
+
+PRODUCTTABS=Product tabs
+TABS_BG=Tab background color
+TABS_BG_HOVER=Tab hover background color
+TABS_BG_ACTIVE=Active tab background color
+TABS_COLOR=Tab text color
+TABS_COLOR_HOVER=Tab hover text color
+TABS_COLOR_ACTIVE=Active tab text color
+
+FLYOUTMENU=Fly-out category menu
+FLY_BG_COLOR=Background color
+FLY_BG_HOVER=Hover background color
+FLY_BG_IMAGE=Sub-menu indicator image
+FLY_BORDER=Menu element border
+FLY_COLOR=Text color
+FLY_COLOR_HOVER=Hover text color
+
+SUBCATS=Sub-category menu
+SUBCAT_BORDER=Separator border
+
+_max_file_size=Exported ZIP file; Max file size: [_1]
+_select_file=Select theme file
+_import=Import
+_failed_to_import_theme=Failed to import theme
+_theme_imported=Theme [_1] imported
+_err_not_uploaded=Please select file
+_theme_copied=Theme [_1] copied to [_2]
+_failed_to_copy_theme=Failed to copy theme
+_copy=Copy
+
+
+_notice_changes_in_css_tab=There are unsaved changes in the CSS tab, which would be lost if the style is edited using the form below
+
+_tip_parent_1=You can base a new theme on an existing theme. Basing means that the new theme will use the CSS style, images and templates of the parent theme whenever possible. The changes can be applied by adding new CSS rules and creating theme-specific template files.
+_tip_parent_2=Themes can have multiple parent themes. Usually the 2nd and 3rd parent themes are "flavors" that define a particular characteristic only (layout, color scheme, etc.). For example, <i>barebone-3column</i> defines a 3-column layout.

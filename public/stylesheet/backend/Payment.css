@@ -1,0 +1,194 @@
+fieldset.transactionContainer
+{
+    margin-top: 20px;
+    width: 600px;
+}
+
+#transactionErrorMsg
+{
+    display: block;
+    margin-top: 20px;
+}
+
+.paymentMenu
+{
+	padding-bottom: 40px;
+}
+
+.ccPayment
+{
+    background-image: url(../../image/silk/creditcards.png);
+}
+
+.offlinePayment
+{
+    background-image: url(../../image/silk/money_add.png);
+}
+
+.amountSection
+{
+	border-bottom: 1px solid black;
+}
+
+ul.transactions li
+{
+    padding: 5px;
+    margin-top: 10px;
+    border: 2px solid #DDDDDD;
+    list-style-type: none;
+	position: relative;
+}
+
+.transactionAmount.isVoided
+{
+    text-decoration: line-through;
+}
+
+/* Sale */
+.transactionType_0 .transactionAmount
+{
+    color: green;
+}
+
+/* Authorize */
+.transactionType_1 .transactionAmount
+{
+    color: black;
+}
+
+/* Capture */
+.transactionType_2 .transactionAmount
+{
+    color: lightgreen;
+}
+
+/* Void */
+.transactionType_3 .transactionAmount
+{
+    color: red;
+}
+
+.transactionAmount
+{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.transactionRealAmount
+{
+    font-size: 50%;
+    font-weight: normal;
+}
+
+.transactionMainDetails
+{
+    float: left;
+}
+
+.transactionDetails
+{
+	float: right;
+    text-align: right;
+    width: 280px;
+}
+
+.transactionUser
+{
+    margin-top: 10px;
+}
+
+.transactionMethod
+{
+    width: 260px;
+    margin: 0;
+    padding: 5px;
+}
+
+.transactionMethod legend
+{
+    background-color: inherit;
+    font-size: smaller;
+}
+
+.transactionMethod .extraData
+{
+	font-size: smaller;
+	margin-top: 0.5em;
+}
+
+.ccDetails
+{
+    margin-bottom: 10px;
+}
+
+.gatewayTransactionID, .transactionTime
+{
+	font-size: smaller;
+}
+
+.transactionComment
+{
+	float: left;
+	background-color: lightyellow;
+	border: 1px solid black;
+	margin-top: 5px;
+	padding: 5px;
+	font-size: smaller;
+	max-width: 300px;
+}
+
+ul.transactionMenu li
+{
+    border: 0;
+    margin: 0;
+    width: auto;
+    float: right;
+}
+
+.transactionMenu li a
+{
+    color: red;
+}
+
+/*********************
+    transaction action form (capture or void)
+*********************/
+.transactionForm
+{
+	position: relative;
+	text-align: left;
+}
+
+.transactionForm textarea
+{
+	width: 97%;
+	height: 80px;
+}
+
+.transactionForm fieldset.controls
+{
+	padding: 5px;
+}
+
+/*********************
+    offline payment
+*********************/
+.addOfflinePayment textarea
+{
+    width: 300px;
+    height: 100px;
+}
+
+/*********************
+    credit card payment
+*********************/
+#ccForm
+{
+    padding: 15px;
+}
+
+#ccForm textarea
+{
+    width: 300px;
+    height: 100px;
+}

@@ -1,0 +1,35 @@
+#pageBrowser
+{
+	width: 250px;
+	padding-left: 0;
+}
+
+.containerTableStyle, #pageBrowser
+{
+    height: 250px;
+}
+
+#pageBrowser .containerTableStyle table
+{
+    margin-left: -5px !important;
+}
+
+#textContainer
+{
+    margin-left: 0;
+}
+
+#text, .longDescr
+{
+	height: 350px;
+}
+
+.longDescr
+{
+    width: 100%;
+}
+
+#codeMenu
+{
+	background-image: url('../../image/silk/page_white_code.png');
+}

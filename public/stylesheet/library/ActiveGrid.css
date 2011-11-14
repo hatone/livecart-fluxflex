@@ -1,0 +1,670 @@
+.activeGrid
+{
+    table-layout: fixed;
+	width: 100%;
+	border: 2px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	font-size: 0.9em;
+	-moz-outline:none;
+}
+
+.activeGridContainer
+{
+	position: relative;
+}
+
+.activeGridViewportContainer
+{
+	overflow: hidden;
+	overflow: visible;
+	position: relative;
+}
+
+.activeGridScroller
+{
+	overflow: auto;
+	position: relative;
+	right: 0;
+	top: 26px;
+}
+
+.activeGridScroller, x:-moz-any-link
+{
+	-moz-opacity: 0.7;
+/*	position: relative; */
+	left: 0px;
+	margin-right: 2px;
+}
+
+.activeGridScroller, x:-moz-any-link, x:default
+{
+	left: 0;
+	margin-right: 0;
+}
+
+.activeGrid_loadIndicator, .activeGrid_massActionProgress
+{
+	position: absolute;
+	width: 100%;
+	padding-top: 200px;
+	text-align: center;
+	z-index: 1;
+}
+
+.activeGrid_loadIndicator div
+{
+	background-color: white;
+	display: inline;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.activeGrid_massActionProgress .progressBar
+{
+	float: left;
+}
+
+.activeGrid_massActionProgress .container
+{
+	display: inline;
+	padding: 2em;
+	background-color: white;
+	border: 1px solid #ccc;
+	margin: 0pt auto;
+}
+
+.activeGrid_massActionProgress a.cancel
+{
+	float: left;
+	position: relative;
+	top: 6px;
+	margin-left: 0.5em;
+}
+
+.activeGrid td
+{
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.activeGrid_viewport
+{
+    margin-right: -67px;
+    width: 100%;
+    max-height: 450px;
+}
+
+.activeGrid .sortedColumn
+{
+	background: #ded;
+}
+
+.activeGrid .sortedColumn.sort1
+{
+	background: #ddefdd;
+}
+
+.activeGrid .sortedColumn.sort2
+{
+	background: #ddf0dd;
+}
+
+.activeGrid .sortedColumn.sort3
+{
+	background: #ddf1dd;
+}
+
+.activeGrid .sortedColumn.sort4
+{
+	background: #ddf2dd;
+}
+
+.activeGrid .sortedColumn.sort5
+{
+	background: #ddf4dd;
+}
+.activeGrid .sortedColumn.sort6
+{
+	background: #ddf5dd;
+}
+
+.activeGrid .sortedColumn.sort7
+{
+	background: #ddf6dd;
+}
+
+.activeGrid .sortedColumn.sort8
+{
+	background: #ddf7dd;
+}
+
+.activeGrid .sortedColumn.sort9
+{
+	background: #ddf8dd;
+}
+
+.activeGrid .sortedColumn.sort10
+{
+	background: #ddf9dd;
+}
+
+.activeGrid .sortedColumn.sort11
+{
+	background: #ddfadd;
+}
+
+.activeGrid .sortedColumn.sort12
+{
+	background: #ddfbdd;
+}
+
+.activeGrid .sortedColumn.sort13
+{
+	background: #ddfcdd;
+}
+
+.activeGrid .sortedColumn.sort14
+{
+	background: #ddfddd;
+}
+
+.activeGrid .sortedColumn.sort15
+{
+	background: #ddfedd;
+}
+
+.activeGrid .sortedColumn.sort16
+{
+	background: #ddffdd;
+}
+
+.activeGrid_highlight td,
+.activeGrid_highlightQuickEdit td
+{
+  	background: #eff !important;
+}
+
+.activeGrid_highlightQuickEdit
+{
+	border-style: solid;
+	border-width: 1px;
+	color: green;
+}
+
+.activeGrid_highlight td.sortedColumn
+{
+  	background: #cec !important;
+}
+
+.activeGrid .selected
+{
+  	background: #fed;
+}
+
+.activeGrid .selected td.sortedColumn
+{
+	background: #FFF6DD !important;
+}
+
+.readonlyGrid .cell_cb
+{
+  	display: none;
+}
+
+.activeGrid .cell_cb
+{
+    padding: 0;
+    text-align: center;
+	width: 20px;
+}
+
+.activeGrid .cell_cb > input
+{
+    width: 13px;
+    height: 13px;
+    float: none;
+    padding: 0;
+    margin: 0;
+}
+
+.activeGrid th input.text, .activeGrid th select
+{
+    width: 70%;
+    font-size: 11px;
+    font-weight: bold;
+    border: 1px solid #888888;
+    float: left;
+}
+
+.activeGrid .cellt_text
+{
+	width: 15%;
+}
+
+.activeGrid th.cellt_numeric input
+{
+    width: 50%;
+}
+
+.activeGrid th select
+{
+	width: 80%;
+}
+
+.activeGrid th
+{
+	text-align: left;
+}
+
+.activeGrid th img
+{
+	vertical-align: middle;
+}
+
+.activeGrid_filter_blur
+{
+    background-color: #EEEEEE;
+    border: 0;
+}
+
+.activeGrid_filter_select
+{
+	font-weight: normal !important;
+}
+
+.activeGrid th, .activeGrid td
+{
+  	height: 28px;
+  	padding: 0 2px;
+  	white-space: nowrap;
+	border-left: 1px inset #ddd;
+	border-bottom: 1px inset #ddd;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+	.activeGrid th, .activeGrid td { height: 27px; }
+	.activeGridScroller { width: 30px; top: 28px; }
+}
+
+.activeGrid th
+{
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	height: 26px;
+}
+
+.activeGrid th .fieldName
+{
+	display: none;
+}
+
+.activeGrid th
+{
+	background-color: #DDDDDD;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    padding: 0 2px;
+}
+
+.activeGrid .headRow
+{
+    height: 23px;
+}
+
+.activeGrid select, .activeGrid input
+{
+    margin: 0;
+}
+
+.activeGrid .headRow .cell_cb
+{
+    text-align: center;
+    padding: 0;
+}
+
+.activeGrid .headRow .rangeTo
+{
+    font-weight: normal;
+    font-size: smaller;
+}
+
+.activeGrid th .filterIcon
+{
+    margin-top: 2px;
+    margin-right: 2px;
+    float: left;
+}
+
+.activeGrid th:hover
+{
+    background-color: #E5E5E5;
+}
+
+.activeGrid_searchHighlight
+{
+    background-color: #ff9;
+}
+
+/***********************
+    Sort preview icon
+***********************/
+.activeGrid th .sortPreview, .activeGrid th .sortImg
+{
+    position: absolute;
+    right: -3px;
+    margin-top: 2px;
+}
+
+.activeGrid th:hover .sortImg, .activeGrid th .sortPreview
+{
+    display: none;
+}
+
+.activeGrid th:hover .sortPreview, .activeGrid th.sorted .sortImg
+{
+    display: block;
+}
+
+.activeGrid th.sorted .sortPreview
+{
+    display: none;
+}
+
+/***********************
+    Filter menu
+***********************/
+.activeGrid .filterMenuContainer
+{
+    float: left;
+    position: relative;
+    z-index: 5;
+}
+
+.activeGrid .filterMenu
+{
+    display: none;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -20px;
+    left: 0;
+    z-index: 50000;
+
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 5px;
+}
+
+.activeGrid .filterMenuContainer:hover .filterMenu, .filterMenu:hover
+{
+    display: block;
+}
+
+.activeGrid th .filterMenu li
+{
+    padding: 5px;
+    padding-left: 2px;
+    padding-right: 25px;
+    list-style-type: none;
+    font-weight: normal;
+}
+
+.activeGrid th .filterMenu li:hover
+{
+    background-color: #eee;
+}
+
+.activeGrid th .filterMenu span.sign
+{
+    float: left;
+    width: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.filterMenu li
+{
+	white-space: nowrap;
+	min-width: 200px;
+}
+
+/***********************
+    Range filter
+***********************/
+.activeGrid th .rangeFilterReset
+{
+    font-weight: bold !important;
+    display: none;
+}
+
+.activeGrid th.activeGrid_filter_select .rangeFilterReset
+{
+    display: block;
+}
+
+.activeGrid th .rangeFilter
+{
+    white-space: nowrap;
+    float: left;
+}
+
+.activeGrid th .rangeFilter input
+{
+    width: 30px;
+    font-weight: normal;
+}
+
+.activeGrid th .rangeFilter input, .activeGrid th .rangeFilter span
+{
+    float: left;
+}
+
+.activeGrid th .rangeFilter .rangeTo
+{
+	padding: 2px;
+	padding-top: 6px;
+}
+
+/***************************************
+	Column selector
+***************************************/
+.activeGridColumns
+{
+	padding-top: 5px;
+	text-align: right;
+}
+
+.activeGridColumns ul.menu
+{
+    border: 0;
+}
+
+.activeGridColumns ul.menu li
+{
+	padding-left: 0;
+	float: left;
+}
+
+.activeGridColumns ul.menu a
+{
+	padding: 0px 0 2px 22px;
+	background-repeat: no-repeat;
+}
+
+.activeGridColumns li.reload a
+{
+	background-image: url('../../image/silk/table_refresh.png');
+}
+
+.activeGridColumns li.export a
+{
+	background-image: url('../../image/silk/table_save.png');
+}
+
+.activeGridColumns li.selectColumns a
+{
+	background-image: url('../../image/silk/table_add.png');
+}
+
+.activeGridColumns li.selectColumns
+{
+	margin-right: 0;
+}
+
+.activeGridColumnsSelect
+{
+    background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	white-space: nowrap;
+	width: 280px;
+	position: absolute;
+	right: -250px;
+	top: -385px;
+	min-height: 370px;
+}
+
+.activeGridColumnsSelectControls
+{
+    padding: 5px;
+	position: static;
+	width: 100%;
+}
+
+.activeGridColumnsList
+{
+    padding: 10px;
+	background-color: white;
+	max-height: 300px;
+	overflow: auto;
+	text-align: left;
+}
+
+.activeGridColumnsList label
+{
+    width: auto;
+    max-width: 220px;
+}
+
+.activeGridControls
+{
+	position: relative !important;
+}
+
+.activeGridMass
+{
+    float: left;
+    text-align: right;
+    font-size: smaller;
+}
+
+.activeGridMass select
+{
+    width: 150px;
+}
+
+.activeGridMass input.submit
+{
+    margin-top: 2px;
+}
+
+.activeGridItemsCount
+{
+    font-size: 12px;
+    display: block;
+    clear: both;
+}
+
+.activeGridItemsCount .notFound
+{
+    font-weight: bold;
+}
+
+.activeGridColumnsRoot
+{
+    left: -250px;
+	position: absolute;
+	z-index: 5;
+	width: auto;
+}
+
+.activeGridCellContent
+{
+	position: fixed;
+	z-index: 10;
+	background-color: lightyellow;
+	border: 1px solid #ccc;
+	-moz-border-radius: 6px;
+	padding: 0.5em;
+	font-size: 0.85em;
+}
+
+.rangeCount
+{
+	color: #88c;
+}
+
+th.cellt_date
+{
+	width:150px;
+}
+
+th.cellt_date div.dateRange input
+{
+	width:60px !important;
+	font-size: 9px !important;
+	font-weight:normal !important;
+}
+
+th.cellt_date div.dateRange
+{
+	clear: both;
+}
+
+th.cellt_date div.dateRange div
+{
+	padding:2px 2px 0 0;
+	font-weight:normal !important;
+	float:left;
+}
+
+.activeGridAdvancedSearch .advancedSearchLink
+{
+	background-image: url(../../image/silk/magnifier_zoom_in.png);
+	padding-left: 20px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-size: 13px;
+}
+
+.activeGridAdvancedSearch
+{
+	float: right;
+	text-align: right;
+	padding-top: 15px;
+}
+
+.activeGridAdvancedSearch.hasConditions
+{
+	padding-top: 0;
+	margin-bottom: 2px;
+}
+
+.advancedSearchQueryContainer input,
+.advancedSearchQueryContainer select
+{
+	font-size: smaller;
+	padding: 0;
+	margin: 2px 0;
+}
+
+.advancedSearchQueryContainer select.comparision
+{
+	width: 150px;
+}
+
+.advancedQueryItems
+{
+	text-align: left;
+}

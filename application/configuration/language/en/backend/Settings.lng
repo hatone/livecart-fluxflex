@@ -1,0 +1,595 @@
+# Confirmations
+_could_note_save_section=Could not save section
+
+_livecart_settings=LiveCart Settings
+
+_save_conf=Settings successfully saved
+_err_not_positive=The value must be positive
+
+_hint_settings_search=Search configuration settings
+
+################ Individual settings #################
+
+_main=Main
+STORE_NAME=Store name
+STORE_HEADLINE=Store headline
+TITLE_SEPARATOR=Title separator character
+TITLE_FORMAT=Title format
+NAME_FIRST=Store name first
+TITLE_FIRST=Page title first
+DEFAULT_META_DESCR=Default meta description
+
+_display=Display Preferences
+
+_layout=Appearance
+THEME=Design theme
+LOGO=Logo image
+FAVICON=Favicon image
+LANG_SELECTION=Display language selection menu as
+LANG_NAMES=Language names as links
+LANG_FLAGS=Flags
+LANG_DROPDOWN=Language names as a drop-down list
+DISABLE_AJAX=Disable AJAX features in store frontend
+
+_homepage=Home Page
+_homepage_display=Display Configuration
+NUM_NEWS_INDEX=Number of news entries to display
+HOME_PAGE_SUBCATS=Display category list
+INDEX_MAN_FILTERS=Display manufacturer filters
+INDEX_PRICE_FILTERS=Display price filters
+_homepage_meta_tags=Home Page Meta Tags
+INDEX_META_DESCRIPTION=Meta description tag value
+INDEX_META_KEYWORDS=Meta keywords tag value
+
+_general=Categories
+_category_pages=Category Pages
+
+_subcategory_list=Sub-category List
+HIDE_SUBCATS=Hide sub-categories in the content area
+CATEGORY_COLUMNS=Number of columns
+CATEGORY_COL_DIRECTION=Category order direction
+CAT_VER=Vertical (displayed from top to bottom, ordered by columns)
+CAT_HOR=Horizontal (displayed from left to right, ordered by rows)
+CAT_MENU_IMAGE=Display category image
+CAT_MENU_DESCR=Display category description
+CAT_MENU_SUBS=Number of sub-sub categories to display
+
+NUM_PRODUCTS_PER_CAT=Number of products per category page (list layout)
+SORT_ORDER=Default product sort order
+ALLOWED_SORT_ORDER=Allowed sort parameters
+FEATURED=Featured Products
+SALES_RANK=Bestselling
+PRODUCT_NAME_ASC=Product Name: A-Z
+PRODUCT_NAME_DESC=Product Name: Z-A
+PRICE_ASC=Price: Low to High
+PRICE_DESC=Price: High to Low
+SKU_ASC=SKU
+NEWEST_ARRIVALS=Newest Arrivals
+RATING=Customer Rating
+DISPLAY_NUM_CAT=Display the number of products per category
+DISPLAY_NUM_FILTER=Display the number of products per filter
+DISPLAY_PRICES=Display product prices
+INCLUDE_SUBCATEGORY_PRODUCTS=Include sub-category products in product list
+DISPLAY_CATEGORY_DESC=Display category description
+DISPLAY_CATEGORY_FEATURED=Display a featured product instead of category image
+
+_featured_products=Featured Products
+FEATURED_LAYOUT=Featured product list display layout
+FEATURED_COUNT=Number of featured products to display
+FEATURED_RANDOM=Include random products in featured product list if there are not enough featured products to display
+
+_product_list_layout=Product List Layout
+LIST_LAYOUT=Default list layout
+ENABLED_LIST_LAYOUTS=Enabled layouts
+LIST=List
+GRID=Grid
+TABLE=Table
+LAYOUT_GRID_COLUMNS=Grid columns
+LAYOUT_GRID_ROWS=Grid rows
+ALLOW_SWITCH_LAYOUT=Allow user to switch list layout
+
+_product_table_view=Table Layout
+TABLE_VIEW_COLUMNS=Displayed columns
+IMAGE=Image
+SKU=SKU
+NAME=Name
+PRICE=Price
+DETAILS=Link to detail page
+
+_missing_images=Missing Product Images
+MISSING_IMG_THUMB=Thumbnails (side menus, etc.)
+MISSING_IMG_SMALL=Small images (product lists in categories)
+MISSING_IMG_LARGE=Large images (product page)
+
+_category_filters=Category Page Filters
+ENABLE_MAN_FILTERS=Enable manufacturer filters
+ENABLE_PRICE_FILTERS=Enable price filters
+DISPLAY_CAT_MAN_FILTERS=Display sub-category manufacturer filters for categories without own products
+DISPLAY_CAT_PRICE_FILTERS=Display sub-category price filters for categories without own products
+DISPLAY_IMAGE_IN_LIST=Display product thumbnail image in product list
+
+_products=Products
+PRODUCT_TABS=Display product page content sections as tabs
+UNIT_SYSTEM=Unit measurement system (for weight, size, etc.)
+METRIC=Metric
+ENGLISH=English
+
+_images=Images
+_resize_images=Resize existing images
+_image_resize_success=Images resized successfully
+_product_image=Product Image Sizes
+_p_small=Product Page Thumbnail
+_p_thumb=Product List Thumbnail
+_p_medium=Product Page Image
+_p_large=Enlarged Product Page Image
+
+IMG_P_W_1=Width (pixels)
+IMG_P_H_1=Height (pixels)
+IMG_P_Q_1=Quality (0 - 100)
+
+_display=Display
+_ENLARGE_PRODUCT_THUMBNAILS_ON=Enlarge product thumbnails on
+P_THUMB_ENLARGE_CLICK=mouse click
+P_THUMB_ENLARGE_MOUSEOVER=mouse over
+
+_category_image=Category Image Sizes
+_c_small=Small
+_c_thumb=Thumbnail
+_c_medium=Medium
+_c_large=Large
+
+_manufacturer_image=Manufacturer Image Sizes
+_m_small=Small
+_m_thumb=Thumbnail
+_m_medium=Medium
+_m_large=Large
+
+_option_image=Customer File Upload Preview
+_o_small=Thumbnail images
+_o_large=Enlarged preview
+
+_menus_and_blocks=Menus & Blocks
+_sale_items=On-sale Products
+SALE_ITEMS_COUNT=Number of on-sale products to display per block
+_newest_items=Newest Products
+NEWEST_ITEMS_COUNT=Number of newest products to display
+_bestselling_items=Bestselling Product
+BESTSELLING_ITEMS_COUNT=Number of bestselling products to display
+BESTSELLING_ITEMS_DAYS=Number of last days to include sales data from
+
+_category_menu=Side Category Menu
+CATEGORY_MENU_TYPE=Category menu type
+CAT_MENU_FLYOUT=Fly-out (not suited for large category count)
+CAT_MENU_STANDARD=Standard
+CAT_MENU_NONE=No menu displayed
+
+_top_category_menu=Top Drop-down Menu
+TOP_MENU_HIDE=Hide top menu
+TOP_MENU_HIDE_CATS=Do not include categories
+
+_lang_menu=Language Selection Menu
+
+_search_box=Search Box
+HIDE_SEARCH_CATS=Hide category selection menu (search all categories by default)
+
+_product_page=Products
+
+_product_display_options=Product Display Options
+INCLUDE_BASE_TAXES=Include base (default delivery zone) tax rates in product display prices
+SHOW_PRODUCT_WEIGHT=Display product weight
+SHOW_SKU_CART=Display product SKU in shopping cart page
+SHOW_SKU_EMAIL=Display product SKU in order e-mail messages
+QUANT_FIELD_TYPE=Purchase quantity selection field type
+QUANT_SELECT=Select box
+QUANT_INPUT=Input field
+PRODUCT_PAGE_LIST_LAYOUT=Section product list layout (related, purchased-together products, etc.)
+
+_inventory_status=Inventory Status
+PRODUCT_DISPLAY_STOCK=Display the amount of products in stock
+PRODUCT_DISPLAY_LOW_STOCK=Display low-stock warning
+PRODUCT_DISPLAY_NO_STOCK=Display notification if a product is out of stock
+NUM_PURCHASED_TOGETHER=Display products that were purchased together most often
+
+_product_compare=Product Compare
+ENABLE_PRODUCT_COMPARE=Enable product compare
+
+_inquiry_form=Product Inquiry Contact Form
+PRODUCT_INQUIRY_FORM=Display product inquiry form
+
+_reviews_and_ratings=Product Reviews and Ratings
+ENABLE_REVIEWS=Enable reviews
+ENABLE_RATINGS=Enable ratings
+REVIEWS_WITH_RATINGS=Require entering a review when rating a product
+ENABLE_ANONYMOUS_RATINGS=Allow anonymous (unregistered user) ratings and reviews
+REQUIRE_PURCHASE_TO_RATE=Require customer to have purchased a product to be able to rate/review it
+APPROVE_REVIEWS=Automatically approve reviews
+APPROVE_REVIEWS_AUTO=All
+APPROVE_REVIEWS_USER=By registered users only
+APPROVE_REVIEWS_NONE=None
+RATING_SCALE=Rating scale
+RATING_SAME_IP_TIME=Allow anonymous ratings from the same IP address every ... hours
+NUM_REVIEWS_IN_PRODUCT_PAGE=Number of reviews to display in product page
+REVIEWS_PER_PAGE=Number of reviews per page
+_filters=Product Filters
+
+_general_filter=General Options
+MAX_FILTER_CRITERIA_COUNT=Max number of filter criterias to display without expanding
+FILTER_STYLE=Filter style
+FILTER_STYLE_LINKS=Links (select one choice per filter)
+FILTER_STYLE_CHECKBOXES=Checkboxes (select multiple choices per filter)
+
+_top_menu_filters=Top Menu Filters
+TOP_MENU_COMPACT=Compact display style (include filter names in drop-down menus)
+TOP_FILTER_PRICE=Display price filters in top menu
+TOP_FILTER_MANUFACTURER=Display manufacturer filters in top menu
+TOP_FILTER_CONTINUOS=Continuos filter selection (previous filters have to be selected for the further filters to become selectable)
+TOP_FILTER_RELOAD=Reload page after selecting a filter
+
+_price_filters=Price Filters
+_price_filter_1=Price Filter 1
+_price_filter_2=Price Filter 2
+_price_filter_3=Price Filter 3
+_price_filter_4=Price Filter 4
+_price_filter_5=Price Filter 5
+_price_filter_6=Price Filter 6
+_price_filter_7=Price Filter 7
+_price_filter_8=Price Filter 8
+_price_filter_9=Price Filter 9
+_price_filter_10=Price Filter 10
+PRICE_FILTER_NAME_1=Filter Name
+PRICE_FILTER_NAME_2=Filter Name
+PRICE_FILTER_NAME_3=Filter Name
+PRICE_FILTER_NAME_4=Filter Name
+PRICE_FILTER_NAME_5=Filter Name
+PRICE_FILTER_NAME_6=Filter Name
+PRICE_FILTER_NAME_7=Filter Name
+PRICE_FILTER_NAME_8=Filter Name
+PRICE_FILTER_NAME_9=Filter Name
+PRICE_FILTER_NAME_10=Filter Name
+PRICE_FILTER_FROM_1=Price From
+PRICE_FILTER_FROM_2=Price From
+PRICE_FILTER_FROM_3=Price From
+PRICE_FILTER_FROM_4=Price From
+PRICE_FILTER_FROM_5=Price From
+PRICE_FILTER_FROM_6=Price From
+PRICE_FILTER_FROM_7=Price From
+PRICE_FILTER_FROM_8=Price From
+PRICE_FILTER_FROM_9=Price From
+PRICE_FILTER_FROM_10=Price From
+PRICE_FILTER_TO_1=Price To
+PRICE_FILTER_TO_2=Price To
+PRICE_FILTER_TO_3=Price To
+PRICE_FILTER_TO_4=Price To
+PRICE_FILTER_TO_5=Price To
+PRICE_FILTER_TO_6=Price To
+PRICE_FILTER_TO_7=Price To
+PRICE_FILTER_TO_8=Price To
+PRICE_FILTER_TO_9=Price To
+PRICE_FILTER_TO_10=Price To
+
+_invoices_labels=Invoices & Labels
+_seller_info=Seller Information
+INVOICE_SELLER_INFO=Seller contact information in invoice
+
+_invoice_preferences=Invoice Options
+DISABLE_INVOICES=Disable invoices
+INVOICE_SHOW_PAYMENT_INFO=Show payments
+INVOICE_LOGO=Invoice logo
+
+_shipping_labels=Shipping Labels
+SHIP_LABELS_PER_ROW=Number of labels per row
+SHIP_LABELS_REPEAT=Times to repeat each label
+SHIP_LABELS_COPIES=Number of copies to print
+
+_searching=Searching
+_search_types=Additionally Searchable Data
+SEARCH_MODELS=Searchable data
+SEARCH_MODEL_PREVIEW=Number of preview results to display in common search results pages
+SEARCH_MODEL_PER_PAGE=Search results per page
+NewsPost=News posts
+StaticPage=Pages
+
+_users=User Accounts
+USER_COUNT_RECENT_ORDERS=Number of recent orders to display in account homepage
+USER_ORDERS_PER_PAGE=Number of orders per page
+
+_inventory=Inventory Tracking
+INVENTORY_TRACKING=Inventory tracking
+DISABLE=Do not track inventory
+ENABLE_AND_DISPLAY=Track inventory, but display out-of-stock products
+ENABLE_AND_HIDE=Track inventory, and hide out-of-stock products
+LOW_STOCK=Low-stock warning threshold (number of items left in stock)
+INVENTORY_TRACKING_DOWNLOADABLE=Track inventory for downloadable products
+
+_checkout=Checkout
+_credit_card_options=Credit Card Options
+REQUIRE_CVV=Require Card Verification Code (CVV) to be entered
+
+_offline_payments=Offline Payments
+OFFLINE_HANDLERS=Enabled offline payment methods
+OFFLINE_NAME=Payment method name
+OFFLINE_LOGO=Logo image
+OFFLINE_DESCR=Description
+OFFLINE_INSTR=Payment instructions
+
+_purchase=Orders & Checkout
+_purchase_settings=Purchasing Settings
+MIN_TOTAL=Minimum order total
+MAX_TOTAL=Maximum order total (0 - no limit)
+MIN_QUANT=Minimum quantity of products per order
+MAX_QUANT=Maximum quantity of products per order (0 - no limit)
+ENABLE_CART=Enable shopping cart
+ENABLE_WISHLISTS=Enable wishlists
+DISABLE_GUEST_CHECKOUT=Disable guest checkout
+DISABLE_GUEST_CART=Require registration to access shopping cart
+DISABLE_CHECKOUT_ADDRESS_STEP=Disable checkout address selection step
+ENABLE_MULTIADDRESS=Allow shipping to multiple addresses
+ENABLE_CHECKOUTDELIVERYSTEP=Enter billing and shipping addresses at separate checkout steps
+CHECKOUT_METHOD=Checkout method
+CHECKOUT_ONEPAGE=One page checkout (interactive)
+CHECKOUT_MULTISTEP=Multiple page checkout (classic)
+SKIP_CART=Skip shopping basket page (go directly to checkout after adding to cart)
+SKIP_SHIPPING=Skip shipping method selection step if only one shipping method is available (select it automatically)
+SKIP_PAYMENT=Skip payment method selection step if only one payment method is available (redirect automatically)
+CHECKOUT_CUSTOM_FIELDS=Display custom fields at
+CART_PAGE=Shopping basket page
+BILLING_ADDRESS_STEP=Billing address entry step
+SHIPPING_ADDRESS_STEP=Shipping address entry step
+SHIPPING_METHOD_STEP=Shipping method selection step
+_checkout_address_handling=Checkout Address Handling
+REQUIRE_SAME_ADDRESS=Shipping and billing addresses are always the same
+
+_one_page_checkout=One Page Checkout
+OPC_SHOW_CART=Always display editable shopping basket
+
+_tos_agreement=Terms of Service Agreement
+REQUIRE_TOS=Require customers to agree to the Terms of Service in order to complete a purchase
+TOS_MESSAGE=Terms of Service agreement message
+PAYMENT_PAGE=Payment page
+TOS_OPC_ONLY=Display the checkbox in One Page Checkout only
+
+_taxes=Taxes
+HIDE_TAXES=Hide taxes to customers
+
+_shipping=Delivery Settings
+
+_delivery_tax_calculation=Tax Calculation For Shipping Costs
+DELIVERY_TAX=Delivery zone tax settings to use for calculating shipping cost taxes
+DELIVERY_TAX_CLASS=Tax class for shipping costs
+_tax_target_zone=Order target delivery zone
+_base_tax_rate=Use base tax rate
+_default_zone=Default zone
+
+_free_shipping=Free Shipping
+FREE_SHIPPING_AUTO_RATE=Provide a default free shipping rate when applicable
+
+_store_loc_add=Store Location Address
+STORE_COUNTRY=Store country
+STORE_STATE=Store state
+STORE_ZIP=Store ZIP code
+STORE_CITY=Store city
+
+_tracking_analytics=Analytics & Tracking
+_external_tracking=External Services
+TRACKING_SERVICES=Enabled services
+
+_def_cust_addr=Default Customer Address
+DEF_COUNTRY=Default country
+DEF_STATE=Default state
+DEF_ZIP=Default ZIP code
+DEF_CITY=Default city
+
+_realtime_shipping=Real-time Shipping Rates
+SHIPPING_HANDLERS=Enabled shipping handlers
+
+_sitemaps=XML Sitemaps
+ENABLE_SITEMAPS=Enable sitemaps
+SITEMAPS_GZ=Apply gzip compression to sitemap files (saves bandwidth)
+_sitemap_ping=Submit sitemap to search engines
+_view_sitemap=View sitemap start page
+_data_feeds=Data Feeds
+_export_feeds=XML Product Export Feeds
+FEED_KEY=Feed access security key (to avoid unauthorized feed access)
+_open_feed=open
+
+_email=Email
+_email_options=E-mail Options
+HTML_EMAIL=Send e-mails in HTML format
+
+_email_store=Notify Store Administrator by E-mail when:
+NOTIFY_NEW_ORDER=a new order is placed
+NOTIFY_NEW_NOTE=a new message is added to order by customer
+NOTIFICATION_EMAIL=E-mail address to send the notifications to
+
+_email_customer=Send E-mail Message to Customer when:
+EMAIL_NEW_USER=a new user account registration is completed
+EMAIL_NEW_ORDER=order checkout is completed (new order received)
+EMAIL_STATUS_UPDATE=order status is updated
+EMAIL_STATUS_UPDATE_NEW=new
+EMAIL_STATUS_UPDATE_PROCESSING=processing
+EMAIL_STATUS_UPDATE_AWAITING_SHIPMENT=awaiting shipment
+EMAIL_STATUS_UPDATE_SHIPPED=shipped
+EMAIL_STATUS_UPDATE_STATUSES=order status updated to
+EMAIL_ORDER_CANCELLATION=order is cancelled
+EMAIL_ORDERNOTE=a new message is added to order
+MAIN_EMAIL=Store e-mail address (all outgoing messages will be sent from this address)
+NEWSLETTER_EMAIL=Newsletter e-mail address (all newsletter messages will be sent from this address)
+
+_email_delivery=E-mail Delivery Method
+EMAIL_METHOD=E-mail delivery type
+MAIL_NATIVE=PHP native mail() function
+SMTP=SMTP
+SMTP_SERVER=SMTP server
+SMTP_PORT=SMTP port
+SMTP_USERNAME=SMTP username
+SMTP_PASSWORD=SMTP password
+
+_payment=Payment Methods
+_cc_opts=Credit Card Options
+_express_payment=Express Checkout Methods
+_other_payment=Other Payment Options
+EXPRESS_HANDLERS=Enabled Express Checkout Payment Options
+PAYMENT_HANDLERS=Enabled Payment Options
+CC_ENABLE=Enable credit card payments
+CC_HANDLER=Credit card handler
+CC_AUTHONLY=Only authorize payments without capturing them automatically
+
+_customers=Customers & Registration
+_registration=Registration
+REQUIRE_PHONE=Require customers to enter phone number on registration
+REQUIRE_REG_ADDRESS=Require address entry on registration
+DISABLE_STATE=Remove state field
+REG_EMAIL_CONFIRM=Require e-mail address confirmation
+
+PASSWORD_GENERATION=User password creation
+PASSWORD_AUTO=Generate automatically (no password entry fields displayed)
+PASSWORD_OPTIONAL=Optional entry
+PASSWORD_REQUIRE=Required entry
+
+_fields=Fields
+USER_FIELDS=Displayed address/profile form fields
+FIRSTNAME=First name
+LASTNAME=Last name
+COMPANYNAME=Company name
+PHONE=Phone number
+ADDRESS1=Address line 1
+ADDRESS2=Address line 2
+
+_invoice_numbers=Invoice Numbers
+INVOICE_NUMBER_GENERATOR=Invoice number scheme
+SequentialInvoiceNumber=Numeric and sequential
+SequentialInvoiceNumber_START_AT=Start invoice numbers from
+SequentialInvoiceNumber_STEP=Number increase step
+SequentialInvoiceNumber_MIN_LENGTH=Minimum number length (padded with zeros if shorter)
+SequentialInvoiceNumber_PREFIX=Number prefix
+SequentialInvoiceNumber_SUFFIX=Number suffix
+LegacyInvoiceNumber=Legacy (pre-1.3.0) invoice numbers - database ID value
+
+_shipping_estimation=Shipping Cost Estimation
+ENABLE_SHIPPING_ESTIMATE=Enable shipping cost estimation in shopping cart page
+SHIP_ESTIMATE_HIDE_ENTRY=Hide address entry for
+UNREGISTERED=Unregistered customers (use store default address)
+ALL_REGISTERED=All registered customers (use store default address or customer address if entered)
+REGISTERED_WITH_ADDRESS=Registered customers that have previously entered an address
+SHIP_ESTIMATE_FIELDS=Address entry fields
+COUNTRY=Country
+STATE=State
+CITY=City
+POSTALCODE=Postal (ZIP) code
+
+# Countries
+_countries=Countries
+PRIMARY_COUNTRIES=Countries to display first in the country list (2-letter country codes separated by commas)
+ENABLED_COUNTRIES=Enabled Countries
+
+# Backend Options
+_backend_opts=Back-end Administration
+
+_product_management=Product Management
+AUTO_GENERATE_SKU=Generate SKU automatically
+DEFAULT_PRODUCT_TYPE=Default product type
+_prod_type_0=Tangible (shippable products)
+_prod_type_1=Intangible (downlodable files)
+DEFAULT_PRODUCT_ENABLED=Make newly created products enabled by default
+
+_language_management=Language Management
+SHOW_BACKEND_LANG_FILES=Allow to edit store back-end language files
+
+_template_management=Template Management
+SHOW_BACKEND_TEMPLATE_FILES=Allow to edit store back-end template files
+
+_admin_misc=Miscellaneous Options
+DISABLE_WYSIWYG=Disable WYSIWYG editors
+DISABLE_TOOLBAR=Disable footer toolbar
+DISABLE_QUICKEDIT=Disable "quick edit" pop-ups in data grids
+
+# SSL options
+_ssl_opts=Security
+_secure_urls=Use https URLs for
+SSL_PAYMENT=Payment page
+SSL_CHECKOUT=All checkout pages
+SSL_CUSTOMER=All customer account area pages
+SSL_BACKEND=All administration back-end pages
+
+_ssl_domain=https domain name
+SSL_DOMAIN=Use a different domain name for secure pages (e.g. secure.mysite.com)
+
+# Technical
+_technical=Technical
+_cache=Caching
+CACHE_METHOD=Caching method
+_proxy=Use proxy server for outgoing connections
+PROXY_HOST=Proxy server host name
+PROXY_PORT=Proxy server port
+_php_session=PHP Session
+USE_DEFAULT_SESSION_HANDLER=Use default session handler
+
+# Private labels
+_private_label=Private Label
+_disable_private_label_change=Disable further editing
+
+_names_and_copyrights=Software Names and Copyright Messages
+SOFT_NAME=Software Name
+POWERED_BY_FRONTEND="Powered by" message in store front-end
+POWERED_BY_URL="Powered by" link URL in store front-end
+POWERED_BY_BACKEND=Copyright message in back-end
+
+_backend_logos=Backend Logo Images
+BACKEND_LOGO=Small logo image in page header
+BACKEND_LOGIN_LOGO=Login page logo image
+
+_backend_options=Display Options
+BACKEND_SHOW_HELP=Display help link
+BACKEND_SHOW_FOOTER_LINKS=Display footer links
+
+_seo=Search Engine Optimization
+URL_REPLACE_SPECIAL_CHARS=Replace special/diacritic characters (for example, äåæ) in URLs
+URL_301_AUTO_REDIRECT=Create a permanent 301 redirect to the new URL if category or product page URL changes
+
+_rssfeeds=RSS Feeds
+NUMBER_OF_PRODUCTS_TO_INCLUDE=Number of products to include in a feed
+NUMBER_OF_NEWS_POSTS_TO_INCLUDE=Number of news posts to include in a feed
+ENABLED_FEEDS=Enabled feeds
+ALL_PRODUCTS=All products
+CATEGORY_PRODUCTS=Category products
+NEWS_POSTS=News posts
+
+_recurring_billing=Recurring billing
+RECURRING_BILLING_TYPE=Recurring billing type
+RECURRING_BILLING_TYPE_PRE_PAY=Pre-pay
+RECURRING_BILLING_TYPE_POST_PAY=Post-pay
+RECURRING_BILLING_GENERATE_INVOICE=Generate invoice days in advance
+RECURRING_BILLING_PAYMENT_DUE_DATE_DAYS=Payment due date is days after billing period start
+ALLOW_USER_TO_CANCEL_RECURRING_REBILLS=Allow user to cancel recurring rebills
+
+_product_sharing=Product sharing
+ENABLE_PRODUCT_SHARING=Show send to friend form in product page
+ENABLE_ANONYMOUS_PRODUCT_SHARING=Show send to friend form in product page for unregistered customers
+
+_send_to_friend=send to friend
+
+_manufacturer=Manufacturers
+MANUFACTURER_PAGE_LIST_STYLE=Manufacturers list page style
+MANPAGE_STYLE_ALL_IN_ONE_PAGE=All manufacturers in one page
+MANPAGE_STYLE_GROUP_BY_FIRST_LETTER=Group into multiple pages by the first letter
+MANUFACTURER_PAGE_NUMBER_OF_COLUMNS=Number of columns
+MANUFACTURER_PAGE_PER_PAGE=Number of manufacturers per page (0 - unlimited)
+MANUFACTURER_PAGE_DISPLAY_ACTIVE=Display only manufacturers with products
+
+# Updates
+_updates=Updates
+_update_options=Update options
+UPDATE_COPY_METHOD=File copying method
+UPDATE_FTP=Via FTP
+UPDATE_COPY=Direct copy (all LiveCart files need to be writable by web server)
+_test_update_copy=Test selected method (please save settings first)
+
+_update_ftp_opts=FTP options
+UPDATE_FTP_SERVER=FTP server
+UPDATE_FTP_USER=FTP username
+UPDATE_FTP_PASSWORD=FTP password
+UPDATE_FTP_DIRECTORY=FTP directory
+
+_update_repositories=Module/update repositories
+UPDATE_REPO_1=Repository URL
+UPDATE_REPO_2=Add new repository

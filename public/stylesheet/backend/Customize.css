@@ -1,0 +1,61 @@
+#customizeMenu
+{
+	float: left;
+}
+
+#customizeMenu li
+{
+	list-style-type: none;
+	border: 1px solid #B3D4EF;
+	margin: 20px;
+	padding: 5px;
+}
+
+#customizeMenu li.active
+{
+	border: 1px solid #58CB51;
+}
+
+.customizeControl
+{
+	font-size: x-large;
+	font-weight: bold;
+	display: block;
+	padding-left: 22px;
+	background-image: url(../../image/silk/stop.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.customizeControl.on
+{
+	background-image: url(../../image/silk/gif/go.gif);
+	font-weight: normal;
+}
+
+.modeDescr
+{
+	margin-top: 10px;
+	padding: 10px;
+	clear: both;
+}
+
+#goToFrontend
+{
+	display: none;
+    float: right;
+	margin-top: 10px;
+	font-size: larger;
+	font-weight: bold;
+
+	padding-right: 22px;
+	background-image: url(../../image/silk/gif/resultset_next.gif);
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+.active #goToFrontend
+{
+    display: inline;
+}

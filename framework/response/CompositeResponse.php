@@ -1,0 +1,122 @@
+<?php
+/*************************************************************************************************
+ * LiveCart																					  *
+ * Copyright (C) 2007-2009 UAB "Integry Systems" (http://livecart.com)							*
+ * All rights reserved																		   *
+ *																							   *
+ * This source file is a part of LiveCart software package and is protected by LiveCart license. *
+ * The license text can be found in the license.txt file. In case you received a package without *
+ * a license file, the license text is also available online at http://livecart.com/license	  *
+ *************************************************************************************************/
+
+ClassLoader::import('framework.response.ActionResponse');
+
+/**
+ * Response for carying instructions to an application to render some other action(s)
+ *
+ * @package	framework.response
+ * @author	Integry Systems
+ */
+abstract class CompositeResponse extends Response
+{
+	/**
+	 * Controller variable name
+	 */
+	const CONTROLLER_HANDLE = 'controller';
+
+	/**
+	 * Action variable name
+	 */
+	const ACTION_HANDLE = 'action';
+
+	/**
+	 * Stores includes
+	 */
+	private $requestedActionList = array();
+
+	private $responseList = array();
+
+	/**
+	 * Includes action output to response
+	 *
+	 * @param string $name Name of value assign to
+	 * @param string $controller Name of controller
+	 * @param string $action Name of action
+	 * @return void
+	 */
+	public function addAction($actionOutputHandle, $controllerName, $actionName)
+	{
+		$this->requestedActionList[$actionOutputHandle] = array(self::CONTROLLER_HANDLE => $controllerName,
+															self::ACTION_HANDLE => $actionName);
+	}
+
+	public function addResponse($actionOutputHandle, Response $response, Controller $controller, $actionName)
+	{
+		$this->responseList[$actionOutputHandle] = array($response, $controller, $actionName);
+	}
+
+	public function getResponseList()
+	{
+		return $this->responseList;
+	}
+
+	/**
+	 * Gets includes names
+	 *
+	 * @return array with names
+	 */
+	public function getRequestedActionList()
+	{
+		return $this->requestedActionList;
+	}
+
+	/**
+	 * Gets contoller name for include
+	 *
+	 * @param string $name Name of include
+	 * @return mixed null if there is no include, otherwise string - Name of controller
+	 */
+	public function getControllerName($actionOutputHandle)
+	{
+		if (isset($this->requestedActionList[$actionOutputHandle]))
+		{
+			return $this->requestedActionList[$actionOutputHandle][self::CONTROLLER_HANDLE];
+		}
+		return null;
+	}
+
+	/**
+	 * Gets action name for include
+	 *
+	 * @param string $name Name of include
+	 * @return mixed null if there is no include, otherwise string - Name of action
+	 */
+	public function getIncludeAction($actionOutputHandle)
+	{
+		if (isset($this->requestedActionList[$actionOutputHandle]))
+		{
+			return $this->requestedActionList[$actionOutputHandle][self::ACTION_HANDLE];
+		}
+		return null;
+	}
+
+	public function setResponse($outputHandle, Response $response)
+	{
+		$this->set($outputHandle, $response->getData());
+	}
+	
+	public function set($key, $value)
+	{
+		$this->data[$key] = $value;
+	}
+
+	public function get($key)
+	{
+		if (isset($this->data[$key]))
+		{
+			return $this->data[$key];
+		}
+	}
+}
+
+?>

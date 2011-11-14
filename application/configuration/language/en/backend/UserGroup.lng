@@ -1,0 +1,103 @@
+# Confirmations
+_user_group_roles_where_successfully_updated=User group roles were successfully updated
+_could_not_save_user_group=Could not save user group
+_user_group_successfully_saved=User group successfully saved
+_user_group_was_successfully_removed=User group was successfully removed
+_new_user_group_successfully_created=New user group was successfully created
+
+_error_name_should_not_be_empty=Please enter group name
+_description=Description
+_name=Name
+_new_user_group=New group
+
+_users=Users
+
+_addNewUser=Add new user
+_activateSelectedUsers=Activate selected users
+_suspendSelectedUsers=Suspend selected users
+_assignSelectedUserToGroup=Assign selected users to group
+
+_orders=Orders
+_user=User
+_password=Password
+_repeat_password=Repeat password
+_first_name=First name
+_last_name=Last name
+_email=E-mail
+_company_name=Company name
+_user_group=Group
+_is_enabled=Is enabled
+
+_add_new_user=Add new user
+_with_selected=With selected
+
+_process=Save
+
+_loading_user=Loading user...
+
+# Tabs
+_user_info=User info
+_cancel_editing_user_info=Done editing user
+_cancel_adding_new_user=Cancel adding new user
+
+_byGroup=By group
+_livecart_users=Users
+_group_users=Users
+_group_permissions=Permissions
+_group_info=Group details
+_default_user_group=Customers
+_all_users=All users
+_add_group=Add user group
+_delete_group=Remove
+_online_users=Online users
+
+_err_email_empty=Please enter e-mail
+_err_invalid_email=Invalid e-mail
+_err_invalid_group=Invalid group
+_err_last_name_empty=Please enter last name
+_err_first_name_empty=Please enter first name
+_err_passwords_are_not_the_same=Passwords do not match
+_err_this_email_is_already_being_used_by_other_user=This e-mail is already being used by another user
+_err_password_lenght_should_be_in_interval=Password length should be in interval from %s to %s
+
+
+_show_password=Show password
+_generate_password=generate
+
+########################
+# Active grid fields
+#######################
+User.ID=ID
+User.email=Email
+User.firstName=First Name
+User.lastName=Last Name
+User.companyName=Company Name
+User.dateCreated=Date Created
+User.isEnabled=Enabled
+isOnline=Online
+User.isOnline=Online
+User.locale=Prefered language
+UserGroup.name=Group Name
+
+UserAddress.firstName=First name
+UserAddress.lastName=Last name
+UserAddress.companyName=Company name
+UserAddress.address1=Address
+UserAddress.address2=Address 2
+UserAddress.city=City
+UserAddress.stateName=State
+UserAddress.postalCode=Postal code
+UserAddress.countryID=Country
+UserAddress.phone=Phone
+BillingAddress=Billing
+ShippingAddress=Shipping
+
+_no_users=No users found
+_listing_users=Listing users $from - $to of $count
+
+_nothing_selected=Please select at least one user account first
+
+_are_you_sure_you_want_to_delete_this_user_group=Are you sure you want to delete this user group?
+_are_you_sure_you_want_to_delete_this_user=Are you sure you want to delete this user?
+_you_cannot_delete_this_group=This group can not be removed
+

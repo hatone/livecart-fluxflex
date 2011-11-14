@@ -1,0 +1,116 @@
+.logEntryAuthor, .logEntryTotalAmount
+{
+    text-align: right;
+    padding-right: 1em;
+}
+
+.logEntryDate
+{
+	font-size: smaller;
+}
+
+.logHistory .logEntryTotalAmount
+{
+    height: 2em;
+    width: 18em;
+}
+
+.logEntryDiff 
+{
+   margin-bottom: 2em;
+}
+
+.logEntryDiff td
+{
+   vertical-align: top;
+   width: 50%;
+}
+
+.logHistory
+{
+    width: 100%;
+}
+
+.logEntry
+{
+    border: 2px solid #DDDDDD;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+.logHistory table
+{
+    width: 100%;
+}
+
+.logHistory .logEntryAction
+{
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.logEntryValueFrom, .logEntryValueTo 
+{
+    color: #999
+}
+
+.logHistory .logNoData
+{
+    font-size: 120%;
+    text-align: center;
+}
+
+.logHistory .logEntryTotalAmount
+{
+   font-size: 110%;
+}
+
+.logHistory .logEntryOldTotalAmount, .logHistory .logEntryNewTotalAmount
+{
+   font-weight: bold;
+}
+
+.logHistory dl, .logHistory .logNoData
+{
+   margin: 0 20px;
+}
+
+.logNoData, dl
+{
+   padding: 0.5em;
+}
+
+dl
+{
+     border-bottom: 1px dotted #ccc;
+     position: relative;
+}
+
+dt
+{
+    float: left;
+    font-weight: bold;
+}
+
+dd
+{
+   margin-left: 10em;
+}
+
+.removedProductSKU
+{
+    color: green;
+}
+
+.removedProductPrice
+{
+    color: red;
+}
+
+.removedProductName
+{
+    display: block;
+	font-weight: bold;
+}

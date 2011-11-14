@@ -1,0 +1,68 @@
+_shipment=Shipment
+_item_price=Price
+_quantity=Quantity
+_subtotal=Subtotal
+
+# Confirmations
+_new_shipment_has_been_successfully_created=New shipment has been successfully created
+_error_creating_new_shipment=Error occurred creating new shipment
+_shipment_was_successfully_removed=Shipment was successfully removed
+_shipment_status_has_been_successfully_updated=Shipment status has been successfully updated
+_shipping_service_was_successfuly_changed=Shipping service was successfully changed
+
+_status=Status
+_shipping_status_new=New
+_shipping_status_pending=Processing
+_shipping_status_awaiting=Awaiting Shipment
+_shipping_status_returned=Returned
+_shipping_status_shipped=Shipped
+
+_add_new_shipment=Add new shipment
+_cancel_adding_new_shipment=Cancel adding new shipment
+_report=Order Totals
+_shipments=Shipments
+
+_shipment_status=Status
+_shipment_service=Service
+
+_shipping=Shipping
+
+_not_shipped=Not Shipped
+_shipped=Shipped
+_downloadable=Downloadable
+
+_add_new_product=Add new product
+
+_do_you_want_to_create_new_shipment=Do you want to create new shipment?
+_shipping_service_is_not_selected=Shipping service is not selected
+
+_edit_options=Edit options
+_edit_variations=Change variation
+
+_price=Total
+_subtotal_price=Subtotal
+_taxes=Taxes
+_discounts=Discounts
+_coupons=Coupons
+
+_shipping_price=Shipping
+_total_price=Total
+
+_edit_address=Edit address
+_shipment_address_changed=Shipment delivery address has been changed
+
+_are_you_sure_you_want_to_change_shipment_status_to_returned=Are you sure you want to change shipment status to returned?
+_are_you_sure_you_want_to_change_shipment_status_to_awaiting=Are you sure you want to change shipment status to awaiting?
+_are_you_sure_you_want_to_change_shipment_status_to_pending=Are you sure you want to change shipment status to processing?
+_are_you_sure_you_want_to_change_shipment_status_to_new=Are you sure you want to change shipment status to new?
+_are_you_sure_you_want_to_change_shipment_status_to_shipped=Are you sure you want to change shipment status to shipped?
+
+_are_you_sure_you_want_to_delete_this_item=Are you sure you want to delete this item?
+_are_you_realy_want_to_update_items_count=Are you sure you want to update item's count?
+
+_you_wont_be_able_to_undelete_this_shipment=You wont be able to undelete the shipment. Are you realy sure you want to proceed?
+_are_you_sure_you_want_to_delete_this_shipment=Are you sure you want to delete this shipment?
+
+_you_have_count_empty_shipments_do_you_want_to_proceed_to_the_next_page=You have empty shipments which will be removed if you leave this page. Do you want to proceed?
+
+_times_downloaded=Download count

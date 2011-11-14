@@ -1,0 +1,54 @@
+.importWarning
+{
+    margin-top: 5px;
+    margin-bottom: 1em;
+}
+
+.importWarning span
+{
+    color: red;
+    text-transform: uppercase;
+}
+
+#import
+{
+    width: 600px;
+    float: left;
+}
+
+#importProgress
+{
+    margin-left: 600px;
+    padding-left: 2em;
+}
+
+#progressBarContainer li
+{
+    list-style-type: none;
+    margin-bottom: 1em;
+    background-image: url(../../image/silk/bullet_yellow.png);
+    background-position: left 4px;
+    background-repeat: no-repeat;
+    padding-left: 22px;
+}
+
+#progressBarContainer li.completed
+{
+    background-image: url(../../image/silk/tick.png);
+}
+
+#progressBarContainer li.inProgress
+{
+    background-image: url(../../image/indicator.gif);
+}
+
+#importProgress h2
+{
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+li.completed .progressBarIndicator
+{
+    background-color: #80C0FF;
+}

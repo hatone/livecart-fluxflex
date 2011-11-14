@@ -1,0 +1,35 @@
+#tabContainer,
+.container,
+.cell_cb,
+.cell_stock
+{
+    display: none;
+}
+
+#sectionContainer
+{
+    height: 0px;
+    padding: 0px;
+    margin-right: 0;
+}
+
+#topShadeContainerRight {
+    display: none;
+}
+
+body, html {
+    padding: 5px;
+    background-image: none;
+}
+
+#activeCategoryPath
+{
+    padding-left: 270px;
+}
+
+#availableShipments
+{
+	display: block;
+	width: 100%;
+	clear: both;
+}

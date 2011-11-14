@@ -1,0 +1,81 @@
+_checkout=Checkout
+
+########################
+# Select order addresses
+########################
+_select_addresses=Select Order Addresses
+_continue=Continue
+
+_add_shipping_address=Add New Shipping Address
+_add_billing_address=Add New Billing Address
+_new_shipping_address=Enter new shipping address
+_new_billing_address=Enter new billing address
+
+_select_shipping_address=Please select the shipping address!
+_select_billing_address=Please select the billing address!
+
+_err_no_rates_for_address=No shipping rates are available for the selected address!
+
+########################
+# Select shipping methods
+########################
+_select_shipping=Select shipping method
+_err_select_shipping=Please select a shipping method for this shipment
+_info_multi_shipments=One or more of your ordered products requires a separate shipment.
+_free_shipping=Free shipping
+
+########################
+# Pay
+########################
+_pay=Complete Your Order
+_total=Order Total
+_pay_securely=Pay securely with a credit card
+_cc_name=Cardholder name
+_cc_number=Card number
+_cc_type=Card type
+_card_exp=Card expiration
+_cvv_descr=3 or 4 digit code after card # on back of card
+_what_is_cvv=What Is It?
+_complete_now=Complete Order Now
+_order_overview=Order Overview
+_will_ship_to=Order will be shipped to
+_will_bill_to=Order will be billed to
+_change=Change
+
+_pay_offline=Pay Offline
+_offline_complete_payment=Make payment offline
+
+_err_enter_cc_num=Please enter credit card number
+_err_select_cc_type=Please select credit card type
+_err_select_cc_expiry_month=Please select card expiration month
+_err_select_cc_expiry_year=Please select card expiration year
+_err_enter_cc_cvv=Please enter the 3 or 4 digit code after card # on back of card
+_err_enter_cc_name=Please enter the cardholder name
+
+_err_processing_cc=Unfortunately we could not process your credit card. Please make sure that you have entered the card details correctly.
+
+_other_methods=Other payment methods
+_select_payment_method=Select a payment method
+
+_any_changes=Any changes needed?
+
+_redirecting_to_payment_page=Redirecting to payment page...
+
+########################
+# CVV Help
+########################
+_cvv=Card Verification Value
+_cvv_description=Card Verification Value (CVV) provides an additional level of online fraud protection. The number is located on your credit card and is generally three to four digits long.
+
+########################
+# Confirmation
+########################
+_order_completed=Order Completed
+_completed_paid=Your payment has been received. You can track the status of your order from <a href="%url">your account</a>.
+_completed_offline=Your order has been completed. Please remit payment according to the instructions below.
+_download=Download
+
+_and=and
+_deliveryDate_between=Expected delivery date between 
+_deliveryDate_before=Expected delivery before
+_deliveryDate_after=Expected delivery after

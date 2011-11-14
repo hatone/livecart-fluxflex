@@ -1,0 +1,16 @@
+_err_innodb_not_available=<a href="http://dev.mysql.com/doc/refman/5.0/en/innodb-overview.html" target="_blank">InnoDB table storage engine</a> is not enabled for MySQL. Please check your MySQL database server settings and try again.
+
+checkWritePermissions=Directory write permissions
+_writePermissionsFix=<strong>Recommended action:</strong> using an FTP client, change the access permissions (chmod) for these directories to 777 (full write access). If the directory doesn't exit yet, please create it.
+
+checkPHPVersion=PHP version
+checkPHPVersion_error=<a href="http://php.net" target="_blank">PHP</a> version must be at least 5.2
+
+checkMySQL=Database support
+checkMySQL_error=<a href="http://php.net/mysqli" target="_blank">mysqli</a> or <a href="http://php.net/mysqli" target="_blank">mysql</a> extension must be installed for PHP
+
+checkGD=Image manipulation support
+checkGD_error=<a href="http://php.net/gd" target="_blank">GD</a> extension must be installed for PHP
+
+checkSession=PHP session configuration
+checkSession_error=PHP sessions are not being saved. Please make sure that the <a href="http://php.net/manual/en/ref.session.php#ini.session.save-path"><em>session.save_path</em></a> PHP configuration value is set correctly.

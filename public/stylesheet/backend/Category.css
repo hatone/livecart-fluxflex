@@ -1,0 +1,50 @@
+.categoryKeywords
+{
+   height: 3em;
+}
+
+#catgegoryContainer
+{
+    overflow: hidden;
+}
+
+#categoryBrowserActions .addTreeNode a
+{
+    background-image: url(../../image/silk/folder_add.png);
+}
+
+#managerContainer
+{
+    position: relative;
+}
+
+
+.quickEditContainer input,
+.quickEditContainer label
+{
+	font-size:smaller;
+
+}
+.productQuickImageUploadContainer
+{
+	position:absolute;
+	width:100%;
+	z-index:200;
+}
+
+.panelGrid
+{
+width:100%;
+}
+.panelGrid td
+{
+vertical-align:top;
+}
+.productForm {
+	margin-left:4px;
+}
+
+.quantityPricing
+{
+	overflow:auto;
+}

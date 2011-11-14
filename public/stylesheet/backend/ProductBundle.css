@@ -1,0 +1,20 @@
+.tabProductBundleContent .total
+{
+	border-bottom: 1px solid #DDDDDD;
+	line-height: 2em;
+}
+
+.tabProductBundleContent .newTotal
+{
+	display: none;
+}
+
+.tabProductBundleContent .activeList li *
+{
+	vertical-align: middle;
+}
+
+.tabProductBundleContent input.number
+{
+	width: 3em;
+}

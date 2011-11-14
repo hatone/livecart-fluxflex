@@ -1,0 +1,44 @@
+/**
+ * IE 6 & IE 7 common quirks
+ */
+
+/*************************** 
+ 	Navigation menu 
+****************************/
+#nav li ul {
+  	top: 22px; 
+}  	
+
+#nav li ul li {
+  	padding-top: 5px; 
+}  	
+
+/***************************
+	Forms
+***************************/
+input.submit {
+	font-size: small;  	
+	padding: 5px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+}
+
+p.radio label, p.checkbox label, label.checkbox, label.radio
+{
+    margin-top: 0px;
+}
+
+/***************************
+	Language
+***************************/
+.branch {
+	margin-left: 17px !important; 
+	padding-left: 3px !important;  
+	margin-top: -3px;
+}
+
+.langTreeSpacer {
+	top: 21px;
+	left: -8px;
+	height: 30px;
+}

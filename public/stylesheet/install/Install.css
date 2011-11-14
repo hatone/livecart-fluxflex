@@ -1,0 +1,603 @@
+*
+{
+  	margin: 0;
+  	padding: 0;
+}
+
+html, body
+{
+	height:100%; /* needed for container min-height */
+}
+
+body, h4
+{
+    font-family: Verdana;
+    font-size: small;
+}
+
+a
+{
+	color: #143788;
+}
+
+a:hover:active
+{
+    color: blue;
+}
+
+a img
+{
+    border: 0;
+}
+
+h1, h2, h3
+{
+	font-family: "Trebuchet MS";
+	font-weight: normal;
+}
+
+h1
+{
+	font-size: 200%;
+	margin: 1em;
+	margin-left: -1em;
+}
+
+h2
+{
+	margin-top: 20px;
+	margin-bottom: 12px;
+	padding-top: 7px;
+    font-size: 150%;
+}
+
+h3
+{
+	margin-bottom: 10px;
+    margin-top: 7px;
+    font-size: 150%;
+}
+
+td
+{
+	vertical-align: top;
+}
+
+ul
+{
+  	padding-left: 12px;
+}
+
+p
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+table
+{
+    border-spacing: 0;
+}
+
+.clear
+{
+    clear: both;
+    width: 100%;
+    height: 1px;
+    overflow: hidden;
+}
+
+.errorMsg
+{
+	color: #FF0000;
+}
+
+.message
+{
+	padding: 15px;
+	font-weight: bold;
+}
+
+div.confirmationMsg
+{
+    padding: 10px;
+}
+
+div.confirmationMsg div
+{
+    display: inline;
+    padding: 5px;
+    background-color: #FFFCAC;
+    z-index: 0;
+}
+
+/*****************************
+	Layout
+*****************************/
+#container
+{
+	position:relative; /* needed for footer positioning*/
+
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+
+	min-height:100%; /* real browsers */
+}
+
+#header
+{
+  	padding: 15px;
+  	padding-bottom: 10px;
+  	background-color: #183583;
+  	color: #fff;
+}
+
+#header #title
+{
+  	font-size: 30px;
+  	margin-right: 2em;
+}
+
+#footer
+{
+	border-top: 1px solid #DDDDDD;
+  	padding: 20px;
+  	text-align:center;
+}
+
+#leftSide
+{
+	float: left;
+	width: 190px;
+	overflow: visible;
+	position: relative;
+}
+
+#rightSide
+{
+	float:right;
+	width:150px;
+	display: none;
+}
+
+#clearFooter {
+	clear: both;
+	height: 1px;
+}
+
+#content
+{
+	margin-left: 190px;
+	padding: 10px;
+	padding-top: 0px;
+}
+
+#content.left
+{
+	margin-left: 0px;
+}
+
+#content.right
+{
+	margin-right: 0px;
+}
+
+/***************************
+	Form styling
+***************************/
+form
+{
+     display: inline;
+}
+
+form p
+{
+    position: relative;
+    clear: both;
+}
+
+.feedback, .feedback_textarea
+{
+    position: absolute ! important;
+    vertical-align: middle;
+    margin-left: 10px;
+    padding-left: 20px;
+    background: url(../../image/silk/error.png) no-repeat left center;
+    visibility: hidden;
+    white-space: nowrap;
+}
+
+fieldset.group
+{
+    position: relative;
+}
+
+form fieldset.group div
+{
+    width: auto;
+}
+
+fieldset
+{
+    margin: 1em 0;
+    padding: 1em;
+    background: #f8f8f8;
+    margin: auto 0;
+    margin-bottom: 10px;
+    border: 1px solid #DDD;
+}
+
+legend
+{
+	font-size: 18px;
+	color: #30A0F9;
+	padding-left: 10px;
+	padding-right: 10px;
+	top: -22px;
+}
+
+label
+{
+    float: left;
+    width: 12em;
+    cursor: pointer;
+    padding-right: 6px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p.required label
+{
+    background-image: url(../../image/silk/bullet_black.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    margin-left: -22px;
+    padding-left: 22px;
+    width: 12em;
+}
+
+p.radio, p.checkbox
+{
+    padding-left: 11em;
+    line-height: 1.7em;
+}
+
+p.radio label, p.checkbox label
+{
+    white-space: nowrap;
+    margin-top: 3px;
+}
+
+label.checkbox, label.radio
+{
+  	margin-top: 3px;
+  	width: auto;
+}
+
+input.text, select, file, form.other
+{
+    width: 15em;
+    font-size: 16px;
+    padding: 2px;
+    vertical-align: middle;
+}
+
+label.cancel
+{
+    float: none;
+    position: relative;
+    top: -6px;
+    padding-left: 0px;
+}
+
+select
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+option
+{
+	padding-right: 4px;
+}
+
+optgroup option
+{
+   padding-left: 1em;
+   color: black;
+   background-color: #ffc;
+}
+
+optgroup
+{
+   font-style: normal;
+   font-weight: bold;
+}
+
+textarea
+{
+    padding: 2px;
+    width: 40em;
+    height: 10em;
+    font-size: 14px;
+    font-family: arial, verdana;
+    color: #333;
+}
+.feedback_textarea
+{
+   line-height: 10em;
+}
+
+input.submit
+{
+    margin-top: 5px;
+}
+
+input.radio, input.checkbox, input.submit, input.button, input.reset
+{
+    width: auto;
+}
+
+input.radio, input.checkbox
+{
+    float: left;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+input:focus, textarea:focus, select:focus
+{
+    background: #ffc;
+}
+
+input.submit:focus
+{
+	color: #008cff;
+}
+
+input.required, textarea.required, select.required
+{
+    border-color: red;
+}
+
+label, input, select, form .other, textarea
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a.cancel
+{
+ 	color: red;
+}
+
+fieldset.error, div.error, fieldset.container
+{
+	padding: 0px;
+	margin: 0px;
+	position: static;
+	border: 0;
+	background-color: inherit;
+	background: inherit;
+	/* @todo: let's see how this works for IE */
+	background: none;
+}
+
+.errorText /* , fieldset.error div */
+{
+	background-color: #FF0001;
+	float: left;
+	width: auto;
+	margin-bottom: 4px;
+	margin-top: 0px;
+	padding: 3px;
+	color: white;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.visible
+{
+	display: block;
+}
+
+.progressIndicator {
+	padding: 15px;
+	width: 30px;
+	height: 20px;
+	background-image: url(../../image/indicator.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	clear: none;
+}
+
+p.checkbox label {
+    float: none;
+    clear: both;
+}
+
+label.title
+{
+    font-weight: bold;
+}
+
+/* textarea container */
+div.textarea
+{
+ 	margin-bottom: 7px;
+}
+
+input.wide
+{
+  	width: 35em;
+}
+
+input.money, input.number
+{
+  	width: 5em;
+}
+
+input.date
+{
+  	width: 6em;
+}
+
+/*************************
+	Layout
+*************************/
+#installContent
+{
+	padding-left: 50px;
+	background-image: url(../../image/promo/logo_large_install.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-bottom: 5em;
+}
+
+#installContent.action_license
+{
+    background-image: none;
+}
+
+#installFooter
+{
+	position:absolute;
+	width:100%;
+	bottom:0; /* stick to bottom */
+	background:#183583;
+	border-top:1px #1835B3;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+#installFooter, #installFooter a
+{
+	color: white;
+}
+
+
+/*************************
+	Requirements check
+*************************/
+.requirements
+{
+	margin: 20px;
+	margin-left: 0;
+}
+
+.requirements div
+{
+	padding: 10px;
+}
+
+div.fail
+{
+	background-color: #FDD;
+    border: 1px solid #FBB;
+	padding: 10px;
+}
+
+dt
+{
+	float: left;
+	width: 250px;
+}
+
+dd
+{
+	margin-left: 250px;
+}
+
+#notWritable
+{
+	margin: 10px;
+}
+
+/*************************
+	License review
+*************************/
+#license
+{
+    margin: 50px;
+    margin-left: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 400px;
+    overflow: auto;
+    padding: 1em;
+    border: 1px solid #BBF;
+    background-color: #EEF;
+}
+
+#agreeContainer
+{
+    padding-left: 0;
+    border: 1px solid #BFB;
+    background-color: #EFE;
+    float: left;
+    padding: 0.6em;
+    cursor: pointer;
+}
+
+/*************************
+	Finish
+*************************/
+#whatsNext li
+{
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+form
+{
+    padding-left: 0;
+    border: 1px solid #BFB;
+    background-color: #EFE;
+    float: left;
+    padding: 0.6em;
+    white-space: nowrap;
+    margin: 0pt auto;
+}
+
+#installProgress
+{
+    float: left;
+    margin: 0;
+}
+
+#installProgress li
+{
+    float: left;
+    list-style-type: none;
+    width: 80px;
+    padding: 0.8em;
+    border: 1px solid white;
+    margin-right: 1em;
+    margin-bottom: 5px;
+    text-align: center;
+    -moz-border-radius: 4px;
+}
+
+#progressRequirements
+{
+    display: none;
+}
+
+.action_index #progressRequirements
+{
+    display: block;
+}
+
+.action_index #progressRequirements,
+.action_license #progressLicense,
+.action_database #progressDatabase,
+.action_admin #progressAdmin,
+.action_config #progressConfig,
+.action_finish #progressFinish
+{
+    background-color: #11f !important;
+}

@@ -1,0 +1,296 @@
+.activeGrid .cell_DiscountCondition_isEnabled
+{
+	width: 120px;
+}
+
+.activeGrid .cellt_text.cell_DiscountCondition_name
+{
+	width: 250px;
+}
+
+.addDiscountMenu
+{
+	background-image: url(../../image/silk/calculator_add.png);
+}
+
+.conditions select, .actions select
+{
+	width: auto;
+}
+
+#conditionTemplate, #actionTemplate, #recordTemplate, #selectRecordTemplate
+{
+	display: none;
+}
+
+.allSubsMenu
+{
+	margin: 6px;
+}
+
+a.subCondition
+{
+	font-size: smaller;
+	color: #f00;
+	white-space: nowrap;
+}
+
+.subConditionMenu label,
+.subConditionMenu input
+{
+	float: none;
+	font-size: smaller;
+	vertical-align: middle;
+}
+
+.subConditionMenu input
+{
+	margin-right: 2px;
+}
+
+.isReverseContainer
+{
+	border: 1px solid #888;
+	background-color: white;
+	padding: 2px;
+	margin-right: 1em;
+	vertical-align: middle;
+}
+
+.isReverseContainer .acronym div
+{
+	width: 250px !important;
+}
+
+.conditionContainer.root
+{
+	float: left;
+}
+
+.conditionContainer.root > li > .recordContainer
+{
+	display: none !important;
+}
+
+.conditionContainer
+{
+	list-style-type: none;
+}
+
+.conditionContainer .conditionContainer
+{
+	padding: 0.5em;
+	padding-top: 2px;
+	border: 1px solid #ddd;
+}
+
+.conditionContainer .conditionContainer .conditionContainer
+{
+	margin: 0.5em;
+	margin-left: 34px;
+}
+
+.conditionContainer .conditionInfo
+{
+	display: none;
+}
+
+.conditionContainer .conditionContainer .conditionInfo
+{
+	display: block;
+}
+
+.conditionDelete, .recordDelete
+{
+	opacity: 0.15;
+	vertical-align: middle;
+	margin: 0 7px;
+}
+
+.conditionDelete:hover, .recordDelete:hover
+{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.fieldUpdating
+{
+	padding-right: 20px;
+	background: url(../../image/indicator.gif) center right no-repeat;
+}
+
+.comparisonField
+{
+	display: none;
+}
+
+.type_RuleConditionContainsProduct > .conditionInfo .comparisonField
+{
+	display: inline;
+}
+
+.selectRecordUpdating
+{
+	float: left;
+	height: 16px;
+	padding-right: 15px;
+	padding-left: 7px;
+	padding-top: 6px;
+	background: url(../../image/indicator.gif) center left no-repeat;
+}
+
+.selectRecordUpdating input
+{
+	display: none;
+}
+
+.recordContainer, .selectRecordContainer, .valueContainer
+{
+	margin-left: 34px;
+	margin-bottom: 1em;
+}
+
+.conditionContainer, .conditionContainer .conditionContainer .conditionContainer, .conditionContainer .conditionContainer .conditionContainer .conditionContainer .conditionContainer
+{
+	background-color: #fafafa;
+}
+
+.conditionContainer .conditionContainer, .conditionContainer .conditionContainer .conditionContainer .conditionContainer
+{
+	background-color: #fff;
+}
+
+.recordContainer ul.menu li, div.conditionItems
+{
+	display: none;
+}
+
+.recordContainer ul.menu div.conditionItems li
+{
+	display: inline;
+}
+
+.recordContainer ul.menu
+{
+	display: none;
+}
+
+.type_RuleConditionContainsProduct > .recordContainer ul.menu,
+.type_RuleConditionCustomerIs > .recordContainer ul.menu,
+.type_RuleConditionContainsProduct > .recordContainer ul.menu div.conditionItems,
+.type_RuleConditionCustomerIs > .recordContainer ul.menu li.addConditionUser
+{
+	display: block;
+}
+
+.selectRecordContainer
+{
+	display: none;
+	padding-left: 7px;
+}
+
+.type_RuleConditionOrderTotal > .recordContainer,
+.type_RuleConditionOrderItemCount > .recordContainer,
+.type_RuleConditionUserGroupIs > .recordContainer,
+.type_RuleConditionDeliveryZoneIs > .recordContainer
+{
+	display: none;
+}
+
+.type_RuleConditionUserGroupIs > .selectRecordContainer,
+.type_RuleConditionDeliveryZoneIs > .selectRecordContainer
+{
+	display: block;
+}
+
+.allItemsMenu
+{
+	display: none;
+	margin-left: 8px;
+	margin-top: 4px;
+}
+
+.type_RuleConditionContainsProduct > .recordContainer .allItemsMenu
+{
+	display: block;
+}
+
+.selectRecordContainer li, .recordContainer li, .valueContainer li
+{
+	list-style-type: none;
+	clear: both;
+}
+
+.recordTypeSep, .recordClass
+{
+	display: none;
+}
+
+.type_RuleConditionContainsProduct > .recordContainer .recordTypeSep,
+.type_RuleConditionContainsProduct > .recordContainer .recordClass
+{
+	display: inline;
+}
+
+.addRootCondition
+{
+	background-image: url(../../image/silk/arrow_divide_down.png);
+}
+
+.addConditionCategory
+{
+	background-image: url(../../image/silk/folder_add.png);
+}
+
+.addConditionProduct
+{
+	background-image: url(../../image/silk/package_add.png);
+}
+
+.addConditionManufacturer
+{
+	background-image: url(../../image/silk/cog_add.png);
+}
+
+.addConditionUser
+{
+	background-image: url(../../image/silk/user_add.png);
+}
+
+.conditionTime
+{
+	display: block;
+	margin-left: 35px;
+}
+
+.conditionTime .number
+{
+	width: 3em;
+	margin-left: 5px;
+}
+
+.type_RuleConditionPastOrderContainsProduct > .conditionInfo > .subConditionMenu
+{
+	float: right;
+}
+
+.addAction
+{
+	background-image: url(../../image/silk/calculator_add.png);
+}
+
+.actionContainer .activeList_icons
+{
+	float: left;
+}
+
+.actionCondition .recordContainer
+{
+	display: block;
+	margin-left: 0;
+}
+
+.actionCondition .allItemsMenu
+{
+	display: none !important;
+}

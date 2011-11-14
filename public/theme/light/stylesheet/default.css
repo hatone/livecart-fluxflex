@@ -1,0 +1,412 @@
+/* general theme overrides/resets */
+input.submit, input.text, input.password, select, textarea
+{
+	border: 1px solid;
+}
+
+tr.last td
+{
+	border-bottom: 0;
+}
+
+#productSummaryContainer
+{
+	background-color: transparent;
+}
+
+#searchContainer,
+div.box .title,
+div.box .title div,
+.subCategories td.details.verticalSep,
+tr.separator div,
+#productSpecification table,
+a.proceedToCheckout,
+#checkoutProgress a
+{
+	border-width: 0;
+}
+
+#searchContainer,
+div.box .title,
+.subCategories td.details,
+.specSummary,
+a.proceedToCheckout,
+#checkoutProgress a
+{
+	padding: 0;
+}
+
+/* rounded corners */
+a.proceedToCheckout span,
+#checkoutProgress a span,
+#searchContainer .wrapper,
+.subCategories .subCatContainer .subCatContainer,
+.pricingInfo div div,
+#productToWishList td.value,
+.rtl #productToWishList td.param,
+#productSpecification tr.last td.value,
+.rtl #productSpecification tr.last td.param,
+#cart .last .cartQuant, #wishList .last .cartPrice
+{
+	background-image: url(../image/cornerBottomRight.gif);
+	background-position: bottom right;
+}
+
+a.proceedToCheckout span span,
+#checkoutProgress a span span,
+.quickSearch,
+.subCategories .subCatContainer,
+.pricingInfo div,
+#productToWishList td.param,
+.rtl #productToWishList td.value,
+#productSpecification tr.last td.param,
+.rtl #productSpecification tr.last td.value,
+#cart .last, #wishList .last
+{
+	background-image: url(../image/cornerBottomLeft.gif);
+	background-position: bottom left;
+}
+
+a.proceedToCheckout span span span,
+#checkoutProgress a span span span,
+div.box .title,
+.subCategories td.details,
+.pricingInfo div div div,
+#productPrice td.param,
+.rtl #productPrice td.value,
+#productSpecification tr.first td.param,
+.rtl #productSpecification tr.first td.value,
+#cart .first .cartControl, #wishList .first .cartControl
+{
+	background-image: url(../image/cornerTopLeft.gif);
+	background-position: top left;
+}
+
+a.proceedToCheckout span span span span,
+#checkoutProgress a span span span span,
+div.box .title div,
+.subCategories .subCatContainer .subCatContainer .subCatContainer,
+ul.productList .pricingInfo, .productGrid .pricingInfo,
+#productPrice td.value,
+.rtl #productPrice td.param,
+#productSpecification tr.first td.value,
+.rtl #productSpecification tr.first td.param,
+#cart .first .cartQuant, #wishList .first .cartPrice
+{
+	background-image: url(../image/cornerTopRight.gif);
+	background-position: top right;
+}
+
+/* background color 1 */
+tr.odd,
+#searchContainer,
+div.box .content,
+#userMenuContainer,
+fieldset,
+div.addressBlock,
+.orderDetails,
+.noteText,
+#checkoutProgress a,
+tr.even td,
+div.box,
+.dynamicMenu, .dynamicMenu ul,
+.dynamicMenu li:hover li a,
+.dynamicMenu li.sfhover li a,
+.dynamicMenu li:hover li:hover li a,
+.dynamicMenu li.sfhover li:hover li a
+{
+	background-color: #F3FCFF;
+}
+
+/* background color 2 */
+tr.odd td,
+tr.specificationGroup,
+#checkoutProgress a.completed,
+.subCategories td.details
+{
+	background-color:#E6F5FF;
+}
+
+/* background color 3 */
+div.box .title,
+thead,
+tr.heading td
+{
+	background-color: #cef1ff;
+}
+
+/* background color 4: pink */
+ul.productList .pricingInfo,
+.productGrid .pricingInfo,
+#productPurchaseLinks,
+a.proceedToCheckout
+{
+	background-color: #FFF3FC;
+}
+
+/* background color 5: light green */
+#checkoutProgress a.active,
+#checkoutProgress a:hover,
+a.proceedToCheckout:hover
+{
+	background-color: #dfd;
+}
+
+div.addressBlock, .table, .shipment, #userMenuContainer, .orderDetails, #searchContainer, div.box .title div
+{
+	border: 1px solid #A6DAFF
+}
+
+div, td, img, input.submit, input.text, input.password, select, textarea
+{
+	border-color: #cef1ff;
+}
+
+/* gradient background */
+#searchContainer,
+div.box .content,
+tr.heading
+{
+	background-image: url(../image/boxGradient.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	border: 0;
+}
+
+/* links with background icons */
+a.addToWishList,
+#productToWishList td.value a,
+.newsReadMore a
+{
+	padding-left: 22px;
+}
+
+/* right floats */
+ul.productList .pricingInfo,
+.productGrid .pricingInfo
+{
+	float: right;
+}
+
+/* left floats */
+.pricingInfo span.price,
+ul.productList .orderingControls,
+#checkoutProgress a,
+#checkoutProgress span.progressOrder
+{
+	float: left;
+}
+
+/*
+	Header
+*/
+
+#searchContainer
+{
+	border-top-width: 1px;
+	padding-left: 1em;
+	margin-top: 5px;
+}
+
+#searchContainer .wrapper
+{
+	height: 23px;
+}
+
+#language
+{
+	padding-top: 1px;
+}
+
+#currency
+{
+	padding-right: 12px;
+}
+
+#breadCrumb
+{
+	font-size: smaller;
+}
+
+/*
+	Side boxes
+*/
+
+div.box
+{
+	background-image: url(../image/bottomCorners.gif);
+	background-position: right bottom;
+	margin-bottom: 10px;
+	padding-bottom: 6px;
+}
+
+div.box .title div
+{
+	padding-top: 6px;
+	padding-bottom: 4px;
+	font-size: 115%;
+	border-width: 0;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+}
+
+/*
+	Category list
+*/
+.subCategories .subCatContainer .subCatContainer .subCatContainer
+{
+	padding-left: 15px;
+	vertical-align: middle;
+	height: 200px;
+	width: 257px;
+}
+
+/*
+	Product list
+*/
+.resultStats
+{
+	font-size: 100%;
+}
+
+ul.productList .pricingInfo, .productGrid .pricingInfo
+{
+	line-height: 2em;
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+
+.productGrid .pricingInfo
+{
+	float: none;
+	margin: 0 auto;
+}
+
+.pricingInfo span
+{
+	display: none;
+}
+
+.pricingInfo span.listPrice
+{
+	display: block;
+	line-height: 1em;
+}
+
+.pricingInfo span.price
+{
+	display: inline !important;
+	padding-left: 0.5em;
+}
+
+.pricingInfo a.addToCart
+{
+	margin-right: 1em;
+}
+
+ul.productList .image
+{
+	border-right-width: 1px;
+}
+
+ul.productList .addToWishList, #productToWishList td.value a, .productGrid .addToWishList
+{
+	background-image: url(../../../image/silk/gif/heart_add.gif);
+}
+
+.productGrid .orderingControls
+{
+	margin-top: 0.5em;
+	font-size: smaller;
+}
+
+/*
+	Product page
+*/
+#productPrice td.value, #productToCart td.value, #productToWishList td.value
+{
+ 	padding-right: 1em;
+}
+
+#productPrice td
+{
+	padding-top: 1em;
+}
+
+#productToWishList td.value
+{
+	text-align: left;
+}
+
+#productToWishList td
+{
+	padding-bottom: 1em !important;
+}
+
+tr.specificationGroup
+{
+	background-repeat: repeat-x;
+}
+
+.returnToCategory
+{
+	margin-left: -1em;
+}
+
+.specSummary
+{
+	background: transparent;
+	float: none;
+	margin-top: -5px;
+	margin-bottom: 5px;
+	width: auto;
+	z-index: 0;
+}
+
+/*
+	Shopping cart
+*/
+a.proceedToCheckout span
+{
+	display: block;
+}
+
+a.proceedToCheckout span span span span
+{
+	padding: 10px 27px 10px 10px;
+}
+
+/*
+	Checkout
+*/
+#checkoutProgress a span
+{
+	display: block;
+}
+
+#checkoutProgress a span span span span
+{
+	padding: 0 10px;
+}
+
+#checkoutProgress a span span span span, #checkoutProgress span.progressOrder
+{
+	line-height: 40px;
+}
+
+/*
+	Site news
+*/
+.newsReadMore a
+{
+	background-image:url(../../../image/silk/gif/page_white_text.gif);
+	padding-top: 4px;
+}
+
+.rtl .subCatContainer table
+{
+	margin-right: 1em;
+}
+
+/* IE */
+.compactProductList li { position: static !important; }

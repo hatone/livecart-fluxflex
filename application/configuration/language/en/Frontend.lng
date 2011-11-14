@@ -1,0 +1,109 @@
+_information=Information
+_categories=Categories
+
+# Breadcrumb
+_you_are_here=You are here
+_my_session=My Shopping Session
+_my_basket=My Shopping Basket
+
+# Filters
+_show_all=Show All
+_show_all_brands=Show All Brands
+_expand=Expand Selection
+_remove_filter=Remove
+_narrow_results=Narrow Selection
+_by_brand=By Brand
+_by_price=By Price
+
+# Search
+_all_products=All Products
+_search=Search
+
+# Currencies
+_switch_currency=Switch Currency
+
+# Shopping basket
+_shopping_basket=Shopping Basket
+_shopping_cart=Shopping Cart
+_add_to_cart=Add to Cart
+_add_to_wishlist=Add to Wishlist
+_cart_item_count=[quantf,_1,<strong>%d</strong> item,<strong>%d</strong> items,no items]
+
+# Orders
+_total=Total
+_subtotal=Subtotal
+_subtotal_before_tax=Subtotal before tax
+_total_before_tax=Total before tax
+_shipping=Shipping
+_order_total=Order total
+_price=Price
+_quantity=Quantity
+_qty=Qty
+_product=Product
+_discount=Discount
+_surcharge=Surcharge
+
+# Product options
+_err_option_0=This option must be selected
+_err_option_1=Please select an option
+_err_option_2=This field cannot be left blank
+_err_option_upload=Please upload a file
+_err_option_filetype=Uploaded file type is not valid.<br />Accepted file types are: [_1]
+_err_option_filesize=The uploaded file is too large.<br />The largest allowed file size is [_1] MB
+
+# Checkout
+_checkout=Checkout
+_order_checkout=Order Checkout
+_the_same_as_shipping_address=My shipping address is the same as my billing address
+_edit_address=Edit Address
+
+_cart=Cart
+_address=Address
+_shipping=Shipping
+_payment=Payment
+_billing_address=Billing Address
+_shipping_address=Shipping Address
+_err_agree_to_tos=Please mark the checkbox above to complete your purchase
+
+# Users
+_your_account=Your Account
+_sign_out=Sign out
+_remind_password=I have forgotten my password
+
+_sale_items=Special Offer
+_newest_products=Newest Products
+_bestselling_products=Bestselling Products
+
+# Custom pages
+_contact=Contact
+_manufacturers=Manufacturers
+_categories=Categories
+_all_products=All products
+
+# Common words
+_save=Save
+_or=or
+_cancel=Cancel
+_our_price=Our Price
+_weight=Weight
+_kg=kg
+
+# Blocks
+_quick_nav=Quick Navigation
+
+_latest_news=Latest news
+_news_archive=News archive
+_read_more=Read more
+
+_pages=Pages
+_next=Next
+_previous=Previous
+
+_add_compare=Add to Compare
+_compared_products=Compared Products
+_view_comparison=View Comparison
+
+# RSS feeds
+_news_posts_feed=News feed
+_category_products_feed=Category products feed
+_all_products_feed=All products feed
